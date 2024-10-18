@@ -1,0 +1,47 @@
+.Header{
+    display: flex;
+    flex-direction: column;
+
+    background-color: #F8F8F8;
+
+}
+
+.HeaderTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+.HeaderTop a{
+    text-decoration: none;
+    color: #1F1F1F;
+
+    
+
+}
+
+.HeaderBotton{
+   
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    background-color: rebeccapurple;
+
+    
+    
+
+}
+
+
+.HeaderBotton a{
+    background-color: aqua;
+    text-decoration: none;
+    color: #1F1F1F;
+    
+}
+
