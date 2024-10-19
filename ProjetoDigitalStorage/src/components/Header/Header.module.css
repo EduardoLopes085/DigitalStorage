@@ -1,0 +1,131 @@
+    
+.header {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header img{
+    cursor: pointer;
+   
+
+}
+.hea_2{
+ width: 100%;
+ display: flex;
+
+ justify-content: flex-start;
+ height: 40px;
+ gap: 40px;
+ 
+ 
+}
+
+.hea_1 {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header_img{
+    width: 200px;
+    height: 30px;
+}
+.header_img:hover{
+    transition: 0.3s;
+    height: 33px;
+
+}
+.header input{
+
+   background-image: url("https://cdn-icons-png.flaticon.com/128/2319/2319177.png");
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: 2rem;
+   background-position-x: 95%;
+   color: black;
+   width:700px;
+   height: 40px;    
+   border: none;
+   border-radius: 10px;
+   background-color: rgb(211, 211, 211, 0.3 );
+   
+}
+.header input:hover{
+    transition:0.3s;
+    background-color: rgb(211, 211, 211, 0.5);
+}
+
+
+
+
+.header a{
+    font-size: 15px;
+    color: rgb(158, 147, 147);
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.header a:hover{
+    transition: 0.1s;
+    font-size: 15.3px;
+    color:#C92071;
+    text-decoration:underline 2px; 
+   
+}
+.headerbutton{
+    cursor: pointer;
+    text-decoration:none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(158, 147, 147);
+    background-color: transparent;
+    font-size:17px;
+    width:130px;
+    height: 35px;
+}
+.headerbutton:hover{
+    transition: 3s;
+    text-decoration:underline;
+}
+.headerbutton2{
+    background-color: #C92071;
+    cursor: pointer;
+    text-decoration:none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    font-size:17px;
+    width:130px;
+    height: 35px;
+}
+.headerbutton2:hover{
+        transition: 0.1s;
+        
+        font-size: 18px;
+}
+.div_cart{
+    height: 100px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    
+}
+.cart{
+    height: 30%;
+    width: 100%;
+}
+.cart:hover{
+    transition: 0.2s;
+    height: 35%;
+}
