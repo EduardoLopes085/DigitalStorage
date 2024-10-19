@@ -1,0 +1,63 @@
+
+.Footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+}
+.FooterTop{
+
+    height: 350px;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+ 
+    
+}
+ .FooterLogo{
+    height: 250px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.ajuste{
+    display: flex;
+    width: 200px;
+    margin-top: 30px;
+    justify-content: space-between;
+   
+}
+.logoFooter{
+    margin-bottom: 30px;
+    width: 200px;
+}
+h3{
+    margin-bottom: 30px;
+}
+h5{
+    margin-bottom: 20px;
+}
+.a{
+    
+    height: 250px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.FooterBottom{
+    height: auto;
+    height: 30px;
+    align-items: center;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+}
+

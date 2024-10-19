@@ -15,7 +15,7 @@ function Header(){
               <img src ={img}  className={styles.header_img}  alt='IMG'></img>  
               <input type='text' placeholder='Pesquisar produto...'></input>
                 <label className={styles.headerbutton}>Cadastra-se</label>
-                <a href ='/login' className={styles.headerbutton2}>Entrar</a >
+                <label href ='/login' className={styles.headerbutton2}>Entrar</label >
                 <div className={styles.div_cart}>
                 <img  src={cart}  className={styles.cart}  alt='carrinho'></img>
                 </div>

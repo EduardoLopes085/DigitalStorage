@@ -67,7 +67,7 @@
 .header a{
     font-size: 15px;
     color: rgb(158, 147, 147);
-    
+    text-decoration: none;
     display: flex;
     justify-content: space-evenly;
     
