@@ -1,0 +1,146 @@
+*{
+    text-decoration: none;
+    color: white;
+}
+
+.Footer{
+    background-color: aquamarine;
+
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+
+.FooterTop{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    
+    background-color: gray;
+
+    gap: 3rem
+    
+
+}
+
+.Footer .FooterLogo{
+    
+    width: auto;
+    display: flex;
+    flex-direction: column;
+
+    height: 150px;
+    
+    align-items: center;
+    justify-content: center;
+
+    
+    
+    
+}
+
+.Footer .FooterLogo > span{
+    width: 100%;
+
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 1.4rem;
+}
+
+
+.FooterLogo p {
+    word-wrap: break-word; /* ou use 'word-break: break-all;' se necessário */
+    width: 100%; /* ou ajuste conforme necessário */
+    max-width: 90%; /* para limitar a largura máxima */
+}
+
+.FooterLogo span {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.FooterInform{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+
+    height: 150px;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+
+.FooterInform a{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: flex-start;
+
+
+
+}
+
+
+
+
+.FooterCategory{
+    display: flex;
+    flex-direction: column;
+
+    height: 150px;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.FooterContact{
+    display: flex;
+    flex-direction: column;
+
+    height: 150px;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.FooterBotton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
