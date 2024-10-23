@@ -1,3 +1,9 @@
+*{
+    font-size: medium;
+}
+
+
+
 .Header{
     display: flex;
     flex-direction: column;
@@ -16,26 +22,36 @@
     flex-direction: row;
     justify-content: space-between;
     
+    align-items: center;
+    
     width: 100%;
 
     
 }
 
 .NavTop{
-    width: auto;
+    width: 100%;
 
     display: flex;
     flex-direction: row;
-
-    gap: 2.5rem;
+    justify-content: space-around;
+    
+    gap: 1rem;
     margin-right: 30px; /**olha o padding do Header**/
+
+   
+
 }
 
 .NavTop input{
     width: 800px;
+    height: 3rem;
+
     border: none;
     border-radius: 15px;
+    
     background-color:  #F1F1F1;
+
 }
 
 .HeaderTop a{

@@ -11,7 +11,7 @@ function Header(){
                 <a href=""> <img src={logo} alt="" />  </a>
 
                 <nav className='NavTop'>
-                    <a href="">pesquisa</a>
+                    <input type="text" placeholder='Pesquisar produto' />
                     <a href="">cadaste-se</a>
                     <a href="">entrar</a>
                     <a href="">carrinho</a>

@@ -33,9 +33,9 @@ function Footer(){
                 
                 <div className='FooterInform'>
                     
-                    <h1>Informação</h1>
+                    <h1 className='textTitle' >Informação</h1>
 
-                    <div>
+                    <div className='textContent'>
                         
                         <a href="">Sobre DripStore</a>
                         <a href="">Segurança</a>
@@ -50,9 +50,9 @@ function Footer(){
                 
                 <div className='FooterCategory' >
                     
-                    <h1>Categorias</h1>
+                    <h1 className='textTitle' >Categorias</h1>
 
-                    <div>
+                    <div className='textContent'>
                         
                         <a href="">Camisestas</a>
                         <a href="">Calças</a>
@@ -65,9 +65,9 @@ function Footer(){
                 </div>
                 
                 <div className='FooterContact' >
-                    <h1>Contato</h1>
+                    <h1 className='textTitle' >Contato</h1>
 
-                    <p>
+                    <p className='textContent' >
                         Av. Santos Dumont, 1510 - 1°
                         andar Aldeota, Fortaleza - 
                         CE, 60150-161
