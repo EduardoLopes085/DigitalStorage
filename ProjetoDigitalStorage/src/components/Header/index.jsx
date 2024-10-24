@@ -22,12 +22,12 @@ function Header(){
            
             </div>
             <div className={styles.hea_2}>
-              
+            <div className={styles.ajs}>
             <a href ='/home'>Home</a>
             <a href='/'>Produtos</a>
             <a href=''>Categorias</a>
             <a href=''>Meus Pedidos</a>
-            
+            </div>  
             </div>
       </header>
     )

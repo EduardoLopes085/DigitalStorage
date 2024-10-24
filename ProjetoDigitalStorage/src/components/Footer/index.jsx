@@ -12,7 +12,7 @@ function Footer(){
         <div className='FooterTop'>
             <div className='FooterLogo'>
                 <img className='logoFooter' src={logoFooter} alt="" />
-                <p className='FooterLogoText'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui facilis aliquam necessitatibus dolorum sint perferendis ratione distinctio inventore, nihil, minima libero quod id enim sit soluta impedit quam ullam vero!</p>
+                <h5 className='FooterLogoText'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui facilis aliquam necessitatibus dolorum sint perferendis ratione distinctio inventore, nihil, minima libero quod id enim sit soluta impedit quam ullam vero!</h5>
                 <div className='FooterContent'>
                 <div>
                     <img src={facebook} alt="" />
@@ -48,7 +48,7 @@ function Footer(){
             <h5>Trabalhe Conosco</h5>
             <h5>Meus Pedidos</h5>
              </div>
-             <div className='a'>
+             <div className='b'>
           
              <p>Informação</p>
              <h5>Av. Santos Dumont, 1510 - 1</h5>
@@ -58,12 +58,14 @@ function Footer(){
             
             
              </div>
-             
+            
         </div>
-        
+        <div className='hrAjuste'>
+        <hr></hr>
+        </div>
         <div className='FooterBottom'>
 
-            <hr></hr>
+            
             <h6>@2024 Digita College</h6>
             
         </div>  
