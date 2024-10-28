@@ -1,0 +1,77 @@
+.Main{
+    width: 100%;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+    background-color: aqua;
+
+}
+
+.MainContainer{
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    
+    
+    background-color: brown;
+
+}
+
+.CollectionTop{
+    width: 100%;
+    height: 50%;
+
+    background-color: blueviolet;
+
+}
+
+
+.CollectionImg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+
+
+}
+
+.CollectionBotton{
+    width: 100%;
+    height: 50%;
+    
+    
+    background-color: blue;
+
+    
+}
+
+.CollectionBotton h1{
+    height: 8%;
+}
+
+.ImgContainer{
+    width: 100%;
+    height: 92%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: burlywood;
+}
+
+
+
+
+
+
+

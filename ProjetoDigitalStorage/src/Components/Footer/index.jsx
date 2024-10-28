@@ -11,71 +11,63 @@ function Footer(){
         
         <footer className='Footer'>
 
-            <div className='FooterTop'>
+            <div className='FooterContainer' >
+                <div className='FooterTop'>
                 
-                <div className='FooterLogo'>
-                    
-                    <img src={logoFooter} alt="" />
-                    
-                    <p>Lorem ipsum dolor sit amet, consectetur adipliscing elit, sed do eiusmod tempor inciddidunt ut labore et dolore</p>
-                    
-                    <span>
-                        
-                        <img src={facebook} alt="" />
-
-                        <img src={instagram} alt="" />
-
-                        <img src={twitter} alt="" />
-
-                    </span>
-
-                </div>
+                    <div className='FooterLogo'>
                 
-                <div className='FooterInform'>
-                    
-                    <h1 className='textTitle' >Informação</h1>
-
-                    <div className='textContent'>
-                        
-                        <a href="">Sobre DripStore</a>
-                        <a href="">Segurança</a>
-                        <a href="">Wishlist</a>
-                        <a href="">Blog</a>
-                        <a href="">Trabalhe conosco</a>
-                        <a href="">Meus Pedidos</a>
-                        
+                        <img src={logoFooter} alt="" />
+                
+                        <p>Lorem ipsum dolor sit amet, consectetur adipliscing elit, sed do eiusmod tempor inciddidunt ut labore et dolore</p>
+                
+                        <span>
+                
+                            <img src={facebook} alt="" />
+                            <img src={instagram} alt="" />
+                            <img src={twitter} alt="" />
+                        </span>
                     </div>
-
-                </div>
                 
-                <div className='FooterCategory' >
-                    
-                    <h1 className='textTitle' >Categorias</h1>
-
-                    <div className='textContent'>
-                        
-                        <a href="">Camisestas</a>
-                        <a href="">Calças</a>
-                        <a href="">Bonés</a>
-                        <a href="">Headphones</a>
-                        <a href="">Tênis</a>
-                        
+                    <div className='FooterInform'>
+                
+                        <h1 className='textTitle' >Informação</h1>
+                        <div className='textContent'>
+                
+                            <a href="">Sobre DripStore</a>
+                            <a href="">Segurança</a>
+                            <a href="">Wishlist</a>
+                            <a href="">Blog</a>
+                            <a href="">Trabalhe conosco</a>
+                            <a href="">Meus Pedidos</a>
+                
+                        </div>
                     </div>
-
-                </div>
                 
-                <div className='FooterContact' >
-                    <h1 className='textTitle' >Contato</h1>
-
-                    <p className='textContent' >
-                        Av. Santos Dumont, 1510 - 1°
-                        andar Aldeota, Fortaleza - 
-                        CE, 60150-161
-                        (85) 3051-3411
-                    </p>
-
+                    <div className='FooterCategory' >
+                
+                        <h1 className='textTitle' >Categorias</h1>
+                        <div className='textContent'>
+                
+                            <a href="">Camisestas</a>
+                            <a href="">Calças</a>
+                            <a href="">Bonés</a>
+                            <a href="">Headphones</a>
+                            <a href="">Tênis</a>
+                
+                        </div>
+                    </div>
+                
+                    <div className='FooterContact' >
+                        <h1 className='textTitle' >Contato</h1>
+                        <p className='textContent' >
+                            Av. Santos Dumont, 1510 - 1°
+                            andar Aldeota, Fortaleza -
+                            CE, 60150-161
+                            (85) 3051-3411
+                        </p>
+                    </div>
+                
                 </div>
-            
             </div>
 
             <tr> </tr>

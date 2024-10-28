@@ -1,6 +1,7 @@
 import './App.css'
 import Footer from './Components/Footer'
 import Header from './Components/Header'
+import MainContent from './Components/Main'
 
 function App() {
   
@@ -9,7 +10,9 @@ function App() {
     <>
       {/* <Header/> */}
 
-      <Footer/>
+      {/* <Footer/> */}
+
+      <MainContent/>
 
       {/* <ListaDeTenis limit={8} /> */}
 
