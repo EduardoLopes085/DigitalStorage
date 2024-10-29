@@ -22,11 +22,25 @@ function MainContent(){
 
                     <div className="CollectionImg" >
                         
-                        <img src={c1} alt="" />
+                        <div>
+                            <h1>30% OFF</h1>
 
-                        <img src={c2} alt="" />
+                            <button>comprar</button>
+                       </div>
 
-                        <img src={c3} alt="" />
+                       <div>
+                            <h1>30% OFF</h1>
+
+                            <button> comprar </button>
+                       </div>
+
+                       <div>
+                            <h1>30% OFF</h1>
+
+                            <button> comprar </button>
+                       </div>
+
+
 
                     </div>
 
@@ -34,29 +48,34 @@ function MainContent(){
 
                 <section className="CollectionBotton" >
 
-                    <h1>COLEÇÕES EM DESTAQUE</h1>
-
-
-                    <div className='ImgContainer'>
+                    <div className='CollectionBottonContainer'>
                         
-                        <div className='tshirt'>
-                            <img src={tshirt} alt="" />
-                        </div>
+                        <div className='CollectionBottonContainerContent'>
+                            
+                            <h1>Coleções em destaque</h1>
 
-                        <div className='calca' >
-                            <img src={calca} alt="" />
-                        </div>
-
-                        <div className='calca' >
-                            <img src={calca} alt="" />
-                        </div>
-
-                        <div className='phone' >
-                            <img src={phone} alt="" />
-                        </div>
-
-                        <div  className='foot'>
-                            <img src={foot} alt="" />
+                            <div className='ImgContainer' >
+                                <div className='tshirt'>
+                                    <img src={tshirt} alt="" />
+                                    <h1>Camisetas</h1>
+                                </div>
+                                <div className='calca' >
+                                    <img src={calca} alt="" />
+                                    <h1>Calças</h1>
+                                </div>
+                                <div className='calca' >
+                                    <img src={calca} alt="" />
+                                    <h1>Bones</h1>
+                                </div>
+                                <div className='phone' >
+                                    <img src={phone} alt="" />
+                                    <h1>Headphones</h1>
+                                </div>
+                                <div  className='foot'>
+                                    <img src={foot} alt="" />
+                                    <h1>Tenis</h1>
+                                </div>
+                            </div>
                         </div>
 
                     </div>

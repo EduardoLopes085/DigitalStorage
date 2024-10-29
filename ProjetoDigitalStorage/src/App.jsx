@@ -8,11 +8,13 @@ function App() {
 
   return (
     <>
-      {/* <Header/> */}
-
-      {/* <Footer/> */}
+      <Header/>
 
       <MainContent/>
+      
+      <Footer/>
+
+      
 
       {/* <ListaDeTenis limit={8} /> */}
 
