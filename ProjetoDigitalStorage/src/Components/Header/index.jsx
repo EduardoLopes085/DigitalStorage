@@ -6,30 +6,28 @@ function Header(){
     return(
         <header className='Header'>
         
-            <div className='HeaderTop'>
+            <div className='HeaderContainer'>
+                <div className='HeaderTop'>
                 
-                <a href=""> <img src={logo} alt="" />  </a>
-
-                <nav className='NavTop'>
-                    <input type="text" placeholder='Pesquisar produto' />
-                    <a href="">cadaste-se</a>
-                    <a href="">entrar</a>
-                    <a href="">carrinho</a>
-                </nav>
-
-            </div>
-
-                <div className='HeaderBotton'>
-                    
-                    <nav className='NavBotton'>
-                
-                        <a href="">Home</a>
-                        <a href="">Produtos</a>
-                        <a href="">Categorias</a>
-                        <a href="">Meus Pedidos</a>
-
+                    <a href=""> <img src={logo} alt="" />  </a>
+                    <nav className='NavTop'>
+                        <input type="text" placeholder='Pesquisar produto' />
+                        <a href="">cadaste-se</a>
+                        <a href="">entrar</a>
+                        <a href="">carrinho</a>
                     </nav>
+                </div>
+                    <div className='HeaderBotton'>
                 
+                        <nav className='NavBotton'>
+                
+                            <a href="">Home</a>
+                            <a href="">Produtos</a>
+                            <a href="">Categorias</a>
+                            <a href="">Meus Pedidos</a>
+                        </nav>
+                
+                </div>
             </div>
 
         </header>

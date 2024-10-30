@@ -22,7 +22,7 @@ function MainContent(){
 
                     <div className="CollectionImg" >
                         
-                        <div>
+                        <div className='CollectionCard1' >
                             <h1>30% OFF</h1>
 
                             <button>comprar</button>
@@ -55,23 +55,23 @@ function MainContent(){
                             <h1>Coleções em destaque</h1>
 
                             <div className='ImgContainer' >
-                                <div className='tshirt'>
+                                <div className='icon'>
                                     <img src={tshirt} alt="" />
                                     <h1>Camisetas</h1>
                                 </div>
-                                <div className='calca' >
+                                <div className='icon' >
                                     <img src={calca} alt="" />
                                     <h1>Calças</h1>
                                 </div>
-                                <div className='calca' >
+                                <div className='icon' >
                                     <img src={calca} alt="" />
                                     <h1>Bones</h1>
                                 </div>
-                                <div className='phone' >
+                                <div className='icon' >
                                     <img src={phone} alt="" />
                                     <h1>Headphones</h1>
                                 </div>
-                                <div  className='foot'>
+                                <div  className='icon'>
                                     <img src={foot} alt="" />
                                     <h1>Tenis</h1>
                                 </div>
