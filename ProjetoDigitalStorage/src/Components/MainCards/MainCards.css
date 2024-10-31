@@ -1,0 +1,87 @@
+.ProductsCard{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+    background-color: aqua;
+}
+
+
+.ProductsCardContainer{
+    width: 80%;
+    height: 100%;
+
+    background-color: red;
+
+
+}
+
+.HeaderCard{
+    width: 100%;
+    height: 8%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+    background-color: black;
+}
+
+
+.CardContainer{
+    
+    width: 100%;
+    height: 92%;
+
+
+
+    background-color: blueviolet;
+}
+
+.CardContainer .Row{
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: azure;
+}
+
+.CardContainer .Card{
+    width: 24%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    background-color: cadetblue;
+}
+
+.CardContainer .Card img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

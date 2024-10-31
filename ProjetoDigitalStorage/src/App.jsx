@@ -1,18 +1,27 @@
 import './App.css'
+import Carrossel from './Components/Carrossel'
 import Footer from './Components/Footer'
 import Header from './Components/Header'
 import MainContent from './Components/Main'
+import MainBottom from './Components/Main_bottom'
+import MainCards from './Components/MainCards'
 
 function App() {
   
 
   return (
     <>
-      <Header/>
+      {/* <Header/> */}
 
-      <MainContent/>
+      {/* <Carrossel/> */}
+
+      {/* <MainContent/>  */}
       
-      <Footer/>
+      {/* <MainCards/> */}
+
+      <MainBottom/>
+
+      {/* <Footer/> */}
 
       
 
