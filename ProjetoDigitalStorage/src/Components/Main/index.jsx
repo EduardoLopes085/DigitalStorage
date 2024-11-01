@@ -55,7 +55,7 @@ function MainContent(){
                             <h1>Coleções em destaque</h1>
 
                             <div className='ImgContainer' >
-                                <div className='icon'>
+                                <div className='Icon'>
                                     <img src={tshirt} alt="" />
                                     <h1>Camisetas</h1>
                                 </div>

@@ -1,8 +1,3 @@
-*{
-    font-size: medium;
-}
-
-
 .Header{
     display: flex;
     flex-direction: column;
@@ -14,10 +9,12 @@
     
 
     background-color: #F8F8F8;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     
     padding: 10px; /**o padding ta quebrando tudo**/
 
+    font-family: Inter;
+    font-size: 16px;
 }
 
 

@@ -1,5 +1,5 @@
 import './App.css'
-import Carrossel from './Components/Carrossel'
+// import Carrossel from './Components/Carrossel'
 import Footer from './Components/Footer'
 import Header from './Components/Header'
 import MainContent from './Components/Main'
@@ -11,17 +11,17 @@ function App() {
 
   return (
     <>
-      {/* <Header/> */}
+      <Header/>
 
       {/* <Carrossel/> */}
 
-      {/* <MainContent/>  */}
+      <MainContent/> 
       
       {/* <MainCards/> */}
 
       <MainBottom/>
 
-      {/* <Footer/> */}
+      <Footer/>
 
       
 

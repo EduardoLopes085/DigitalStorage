@@ -1,4 +1,4 @@
-import '../Footer/Footer.css'
+import './Footer.css'
 import logoFooter from '../../assets/logo-footer.svg'
 import facebook from '../../assets/facebook.svg'
 import instagram from '../../assets/instagram.svg'
