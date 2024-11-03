@@ -5,13 +5,13 @@
     align-items: center;
     justify-content: center;
     
-    width: 100%;
-    
+    width: 100%; /*se colocar 100% ele quebra a largura vê isso depois*/
+    height: 18vh;
 
     background-color: #F8F8F8;
     /* background-color: yellowgreen; */
     
-    padding: 10px; /**o padding ta quebrando tudo**/
+    /**o padding ta quebrando tudo**/
 
     font-family: Inter;
     font-size: 16px;
@@ -20,10 +20,15 @@
 
 
 .HeaderContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     width: 90%;
     height: 100%;
 
-
+    font-family: Inter;
     /* background-color: rebeccapurple; */
 }
 
@@ -32,26 +37,75 @@
     flex-direction: row;
     justify-content: space-between;
     
+    gap: 2rem;
     align-items: center;
     
     width: 100%;
+    height: 50%;
+
 
     
+    /* background-color: aqua; */
 }
 
 .NavTop{
     width: 100%;
+    height: 100%;
 
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-around;
     
-    gap: 1rem;
-    margin-right: 30px; /**olha o padding do Header**/
+    margin-left: 5%;
+     /**olha o padding do Header**/
 
-   
 
 }
+
+.NavTop button{
+    width: 10%;
+    height: 49%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+    border: none;
+    border-radius: 8px;
+
+    color: white;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 14px;
+
+    cursor: pointer;
+
+    background-color: #C92071;
+}
+
+.NavTop .NavTopCadastrese{
+    color: #474747;
+    font-family: Inter;
+    font-weight: 400;
+
+    text-decoration: underline;
+
+}
+
+
+.NavTop .NavTopCart{
+    cursor: pointer;
+
+    width: 5%;
+    height: 30%;
+}
+
+
+
+
 
 .NavTop input{
     width: 800px;
@@ -69,17 +123,15 @@
     color: #1F1F1F;
 }
 
-.HeaderBotton{   
-    margin-top: 1.5rem;
-    
+.HeaderBotton {   
     display: flex;
     flex-direction: row;
-    
     width: 100%;
-    
+    height: 50%;
+    /* background-color: bisque; */
 }
 
-.NavTop .ButtonNavTop{
+.NavTop .ButtonNavTop {
     font-size: small;
     background-color: #C92071;
     border-radius: 5px;
@@ -90,14 +142,36 @@
 .NavBotton {
     display: flex;
     flex-direction: row;
-
     width: 100%;
-   
     gap: 2.5rem;
 }
 
 .HeaderBotton .NavBotton a {
     text-decoration: none;
     color: #1F1F1F;
+    position: relative;
+    transition: color 0.3s ease-in-out;
 }
 
+.HeaderBotton .NavBotton a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #C92071;
+    transition: width 0.3s ease-in-out;
+    -webkit-transition: width 0.3s ease-in-out;
+}
+
+.HeaderBotton .NavBotton a:hover {
+    color: #C92071;
+}
+
+.HeaderBotton .NavBotton a:hover::after {
+    width: 100%;
+    left: 0;
+    background: #C92071;
+}

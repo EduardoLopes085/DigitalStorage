@@ -1,4 +1,5 @@
 import logo from '../../assets/logo-header.svg'
+import cart from '../../assets/mini-cart.svg'
 import '../Header/header.css'
 
 function Header(){
@@ -11,21 +12,23 @@ function Header(){
                 
                     <a href=""> <img src={logo} alt="" />  </a>
                     <nav className='NavTop'>
-                        <input type="text" placeholder='Pesquisar produto' />
-                        <a href="">cadaste-se</a>
-                        <a href="">entrar</a>
-                        <a href="">carrinho</a>
+                        <input className='SearchArea' type="text" placeholder='Pesquisar produto' />
+                        <a className='NavTopCadastrese'  href="">Cadastre-se</a>
+                        <button>Entrar</button>
+                        <img className='NavTopCart' src={cart} alt="" />
                     </nav>
+
                 </div>
-                    <div className='HeaderBotton'>
+                <div className='HeaderBotton'>
                 
-                        <nav className='NavBotton'>
+                    <nav className='NavBotton'>
                 
-                            <a href="">Home</a>
-                            <a href="">Produtos</a>
-                            <a href="">Categorias</a>
-                            <a href="">Meus Pedidos</a>
-                        </nav>
+                        <a href="">Home</a>
+                        <a href="">Produtos</a>
+                        <a href="">Categorias</a>
+                        <a href="">Meus Pedidos</a>
+
+                    </nav>
                 
                 </div>
             </div>

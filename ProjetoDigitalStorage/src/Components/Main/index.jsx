@@ -1,8 +1,8 @@
 import '../Main/Main.css'
 
-import c1 from '../../public/collection-1.png'
-import c2 from '../../public/collection-2.png'
-import c3 from '../../public/collection-3.png'
+// import c1 from '../../public/collection-1.png'
+// import c2 from '../../public/collection-2.png'
+// import c3 from '../../public/collection-3.png'
 
 import phone from '../../assets/headphoneGray.svg'
 import tshirt from '../../assets/tshirtGray.svg'
@@ -28,13 +28,13 @@ function MainContent(){
                             <button>comprar</button>
                        </div>
 
-                       <div>
+                       <div className='CollectionCard2'>
                             <h1>30% OFF</h1>
 
                             <button> comprar </button>
                        </div>
 
-                       <div>
+                       <div className='CollectionCard3' >
                             <h1>30% OFF</h1>
 
                             <button> comprar </button>
@@ -59,19 +59,22 @@ function MainContent(){
                                     <img src={tshirt} alt="" />
                                     <h1>Camisetas</h1>
                                 </div>
-                                <div className='icon' >
+                                
+                                <div className='Icon' >
                                     <img src={calca} alt="" />
                                     <h1>Calças</h1>
                                 </div>
-                                <div className='icon' >
+                                
+                                <div className='Icon' >
                                     <img src={calca} alt="" />
                                     <h1>Bones</h1>
                                 </div>
-                                <div className='icon' >
+                                
+                                <div className='Icon' >
                                     <img src={phone} alt="" />
                                     <h1>Headphones</h1>
                                 </div>
-                                <div  className='icon'>
+                                <div  className='Icon'>
                                     <img src={foot} alt="" />
                                     <h1>Tenis</h1>
                                 </div>

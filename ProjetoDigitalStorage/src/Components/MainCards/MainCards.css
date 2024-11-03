@@ -6,16 +6,17 @@
     align-items: center;
     justify-content: center;
 
+    font-family: Inter;
 
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 
 .ProductsCardContainer{
-    width: 80%;
+    width: 90%;
     height: 100%;
 
-    background-color: red;
+    /* background-color: red; */
 
 
 }
@@ -30,43 +31,73 @@
     justify-content: space-between;
 
 
-    background-color: black;
+    /* background-color: black; */
+}
+
+
+.HeaderCard h1{
+    color: #474747;
+
+    font-size: 1.5vw;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.HeaderCard a{
+    width: 8% ;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    
+    
+    color: #C92071;
+    font-family: Inter;
+    text-decoration: none;
 }
 
 
 .CardContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
     
+
     width: 100%;
     height: 92%;
 
 
 
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .CardContainer .Row{
     width: 100%;
-    height: 50%;
+    height: 45%;
 
+    
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 
-    background-color: azure;
+    /* background-color: azure; */
 }
 
 .CardContainer .Card{
-    width: 24%;
+    width: 25%;
     height: 100%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+    
 
-
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
 }
 
 .CardContainer .Card img{
@@ -74,8 +105,37 @@
     height: 200px;
 }
 
+.CardContainer .Card .CardCenter {
+    width: 78%;
+    height: 90%;
+    cursor: pointer;
+    /* background-color: #C92071; */
 
+    /* Adiciona a transição para suavizar o efeito de zoom */
+    transition: transform 0.3s ease-in-out;
+}
 
+.CardContainer .Card .CardCenter:hover {
+    /* Aplica o efeito de zoom */
+    transform: scale(1.1);
+}
+
+.CardContainer .Card .CardBackground {
+    width: 100%;
+    height: 85%;
+
+    /* background-image: url(../../public/produc-image-1.jpeg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: chartreuse;
+}
+
+.CardContainer .Card .CardText {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.99vh;
+}
+ 
 
 
 

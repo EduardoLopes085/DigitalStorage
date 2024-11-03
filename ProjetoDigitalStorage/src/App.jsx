@@ -17,7 +17,7 @@ function App() {
 
       <MainContent/> 
       
-      {/* <MainCards/> */}
+      <MainCards/>
 
       <MainBottom/>
 
