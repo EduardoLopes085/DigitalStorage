@@ -127,7 +127,7 @@
     /* background-image: url(../../public/produc-image-1.jpeg); */
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
 }
 
 .CardContainer .Card .CardText {

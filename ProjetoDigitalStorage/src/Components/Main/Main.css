@@ -218,7 +218,7 @@
 }
 
 .ImgContainer .Icon:hover > img {
-    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+    transform: scale(1.3); /* Efeito de zoom ao passar o mouse */
 }
 
 

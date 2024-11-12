@@ -1,4 +1,4 @@
-import tenis from '../../public/produc-image-1.jpeg'
+import tenis from '../../public/tenis.png'
 import '../MainCards/MainCards.css'
 
 import arrow from '../../public/line-arrow.png'
