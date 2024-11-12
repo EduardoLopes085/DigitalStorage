@@ -1,4 +1,4 @@
-import tenis from '../../public/tenis.png'
+import tenis from '../../public/Layer-2.png'
 import '../MainCards/MainCards.css'
 
 import arrow from '../../public/line-arrow.png'
