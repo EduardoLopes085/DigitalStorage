@@ -40,14 +40,16 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    gap: 1%;
+    justify-content: space-between;
+   
+
+    /* background-color: rebeccapurple; */
 }
 
 .CollectionImg div {
     position: relative;
-    width: 25%;
-    height: 75%;
+    width: 30%;
+    height: 80%;
     border-radius: 13px;
     display: flex;
     flex-direction: column;
@@ -74,7 +76,7 @@
     height: 100%;
     background-image: url('../../public/collection-1.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     transition: transform 0.7s ease-in-out;
     z-index: 0; /* garantir que a imagem fique atrás de qualquer conteúdo */
     border-radius: 13px;
@@ -89,7 +91,7 @@
     height: 100%;
     background-image: url('../../public/collection-2.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     transition: transform 0.7s ease-in-out;
     z-index: 0; /* garantir que a imagem fique atrás de qualquer conteúdo */
     border-radius: 13px;
@@ -104,7 +106,7 @@
     height: 100%;
     background-image: url('../../public/collection-3.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     transition: transform 0.7s ease-in-out;
     z-index: 0; /* garantir que a imagem fique atrás de qualquer conteúdo */
     border-radius: 13px;
@@ -133,7 +135,7 @@
     border-radius: 50px;
     color: rgba(71, 71, 71, 1);
     background-color: rgba(231, 255, 134, 1);
-    margin-top: 3%;
+    margin-top: 5%;
     margin-left: 7%;
 
     font-family: Inter;
@@ -146,7 +148,7 @@
     border: none;
     color: #C92071;
     border-radius: 6px;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
     margin-left: 7%;
     transition: background-color 0.85s ease, color 0.85s ease;
 }
