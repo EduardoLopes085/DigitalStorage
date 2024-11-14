@@ -58,8 +58,9 @@
 
 .CollectionImg div button{
     cursor: pointer;
+    
+    
 }
-
 
 
 
@@ -76,6 +77,7 @@
     background-size: contain;
     transition: transform 0.7s ease-in-out;
     z-index: 0; /* garantir que a imagem fique atrás de qualquer conteúdo */
+    border-radius: 13px;
 }
 
 .CollectionImg .CollectionCard2::before {
@@ -90,6 +92,7 @@
     background-size: contain;
     transition: transform 0.7s ease-in-out;
     z-index: 0; /* garantir que a imagem fique atrás de qualquer conteúdo */
+    border-radius: 13px;
 }
 
 .CollectionImg .CollectionCard3::before {
@@ -104,6 +107,7 @@
     background-size: contain;
     transition: transform 0.7s ease-in-out;
     z-index: 0; /* garantir que a imagem fique atrás de qualquer conteúdo */
+    border-radius: 13px;
 }
 
 
@@ -136,7 +140,7 @@
     font-size: 14px;
 }
 
-.CollectionImg div button {
+.CollectionImg div button{
     width: 30%;
     height: 18%;
     border: none;
@@ -144,7 +148,17 @@
     border-radius: 6px;
     margin-bottom: 15%;
     margin-left: 7%;
+    transition: background-color 0.85s ease, color 0.85s ease;
 }
+
+.CollectionImg div button:hover{
+    color: white;
+    background-color: #C92071;
+
+}
+
+
+
 .CollectionBotton{
     width: 100%;
     height: 50%;
