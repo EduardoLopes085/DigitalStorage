@@ -5,25 +5,26 @@ import Header from './Components/Header'
 import MainContent from './Components/Main'
 import MainBottom from './Components/Main_bottom'
 import MainCards from './Components/MainCards'
+import ProductCard from './Components/ProductCard'
 
 function App() {
   
 
   return (
     <>
-      <Header/>
+      {/* <Header/> */}
 
       {/* <Carrossel/> */}
 
-      <MainContent/> 
+      {/* <MainContent/>  */}
       
-      <MainCards/>
+      {/* <MainCards/> */}
 
-      <MainBottom/>
+      {/* <MainBottom/> */}
 
-      <Footer/>
+      {/* <Footer/> */}
 
-      
+      <ProductCard/>
 
       {/* <ListaDeTenis limit={8} /> */}
 

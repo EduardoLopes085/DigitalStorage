@@ -79,5 +79,40 @@
     background-color: yellowgreen;
 }
 
+.productDescription .productName{
+    text-decoration: none;
+
+
+    font-family: Inter;
+    color: rgba(31, 31, 31, 1);
+
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1px;
+
+    text-wrap: wrap;
+
+
+}
+
+.productDescription .productFilter{
+    font-family: Inter;
+    font-weight: 500;
+
+    font-size: 110%;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: rgba(102, 102, 102, 1);
+}
+
+.productDescription .productPrice{
+    font-family: Inter;
+    font-size: 130%;
+    font-weight: 700;
+    size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+
+}
 
 
