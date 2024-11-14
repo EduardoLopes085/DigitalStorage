@@ -18,7 +18,7 @@ function MainCards(){
                     
 
                 <div className='CardContainer'>
-                    <div className='Row'>
+                   
 
                         <div className="Card">
                                                    
@@ -98,11 +98,11 @@ function MainCards(){
                         
                         </div>
 
-                    </div>
+                    
 
-                    <div className='Row' >
+                    
                         
-                    <div className="Card">
+                        <div className="Card">
                                                    
                                                    <div className='CardCenter' >
                        
@@ -178,12 +178,8 @@ function MainCards(){
                        
                                                 </div>
                                                
-                    </div>
+                        </div>
                 </div>
-
-
-
-            </div>
 
                     
         </div>
