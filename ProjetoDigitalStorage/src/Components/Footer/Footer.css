@@ -17,7 +17,7 @@
     margin: 0;
     padding: 0;
     font-size: small;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
 }
 
 .FooterContainer{
@@ -84,6 +84,12 @@
     word-wrap: break-word; /* ou use 'word-break: break-all;' se necessário */
     width: 100%; /* ou ajuste conforme necessário */
     max-width: 90%; /* para limitar a largura máxima */
+
+
+    font-family: 'Inter', sans-serif;
+
+    color: #FFFFFF;
+    font-weight: 400;
 }
 
 .FooterLogo span {
@@ -103,6 +109,11 @@
     gap: 1rem;
     
     justify-content: flex-start;
+
+    font-family: 'Inter', sans-serif;
+
+    color: #FFFFFF;
+    font-weight: 400;
 
     /* background-color: aqua; */
     
@@ -136,6 +147,12 @@
     gap: 1rem;
     
     justify-content: flex-start;
+
+    font-family: 'Inter', sans-serif;
+
+    color: #FFFFFF;
+    font-weight: 400;
+
 
     /* background-color: rebeccapurple;  */
 }
@@ -177,6 +194,11 @@
     align-items: center;
     justify-content: flex-start;
     
+    font-family: 'Inter', sans-serif;
+
+    color: #FFFFFF;
+    font-weight: 400;
+
     /* background-color: chartreuse; */
 }
 
@@ -223,7 +245,12 @@
 
 }
 
+.FooterBotton h1{
+    font-family: 'Inter', sans-serif;
 
+    color: #FFFFFF;
+    font-weight: 400;
+}
 
 
 
