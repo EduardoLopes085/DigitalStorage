@@ -1,77 +1,95 @@
-import React, { useState } from 'react';
-import '../main/main.css';
+import { useState, useEffect } from 'react';
+import '../Carrossel/Carrossel.css';
+import img from '../../public/Ornament_11.png'; // Verifique o caminho da imagem
 
-function Carrossel() {
-  const [selectedRadio, setSelectedRadio] = useState('radio1');
+function Main() {
+  const [currentSlide, setCurrentSlide] = useState(0); // Controla o índice do slide
+  const [isPaused, setIsPaused] = useState(false); // Controla se o carrossel está pausado
+  const slides = [ // Um array de objetos representando os slides
+    {
+      id: 'slide1',
+      image: 'https://i.ibb.co/Jysdmz6/White-Sneakers-PNG-Clipart-2.png',
+      title: 'Melhores ofertas personalizadas',
+      description: 'Queima de estoque Nike 🔥',
+      label: 'Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.',
+    },
+    {
+      id: 'slide2',
+      image: 'https://i.ibb.co/Jysdmz6/White-Sneakers-PNG-Clipart-2.png',
+      title: 'Ofertas imperdíveis',
+      description: 'Promoções exclusivas Nike 🔥',
+      label: 'Aproveite os melhores preços e descontos para você!',
+    },
+    {
+      id: 'slide3',
+      image: 'https://i.ibb.co/Jysdmz6/White-Sneakers-PNG-Clipart-2.png',
+      title: 'Novidades quentes',
+      description: 'Coleção de inverno Nike 🔥',
+      label: 'Roupas, tênis e acessórios com descontos incríveis!',
+    },
+    {
+      id: 'slide4',
+      image: 'https://i.ibb.co/Jysdmz6/White-Sneakers-PNG-Clipart-2.png',
+      title: 'Promoções de fim de temporada',
+      description: 'Queima de estoque com preços baixos!',
+      label: 'Adquira os melhores produtos com descontos arrasadores.',
+    }
+  ];
+  const delay = 1500; 
 
-  const handleRadioChange = (event) => {
-    setSelectedRadio(event.target.id);
+  // Função para alternar para o próximo slide
+  const nextSlide = () => {
+    setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
   };
 
-  return (
-    <div className='CarrosselContainer'>
-      <div className="slider">
-        <input type="radio" className="radio_btn" id="radio1" name="radio" onChange={handleRadioChange} checked={selectedRadio === 'radio1'} />
-        <input type="radio" className="radio_btn" id="radio2" name="radio" onChange={handleRadioChange} checked={selectedRadio === 'radio2'} />
-        <input type="radio" className="radio_btn" id="radio3" name="radio" onChange={handleRadioChange} checked={selectedRadio === 'radio3'} />
-        <input type="radio" className="radio_btn" id="radio4" name="radio" onChange={handleRadioChange} checked={selectedRadio === 'radio4'} />
+  // UseEffect para mudar o slide a cada 3 segundos, mas só se o carrossel não estiver pausado
+  useEffect(() => {
+    if (!isPaused) {
+      const timer = setInterval(nextSlide, delay);
+      return () => clearInterval(timer); // Limpa o intervalo ao desmontar o componente
+    }
+  }, [isPaused]); // O useEffect agora depende de `isPaused`
 
-        <div className="slides">
-          <div className="slide" id="slide1">
-            <div className='slide_content'>
-              <span className='span_slide'>Melhores ofertas personalizadas</span>
-              <span className='textPrincipal'>Queima de estoque Nike 🔥</span>
-              <label className='label_slide'>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</label>
-              <button className='btn_slide'>Ver ofertas</button>
+  return (
+    <div className='Container'>
+      <div
+        className="slider"
+        onMouseEnter={() => setIsPaused(true)} // Pausa o carrossel quando o mouse entra
+        onMouseLeave={() => setIsPaused(false)} // Retoma o carrossel quando o mouse sai
+      >
+        {/* Não é mais necessário os inputs radio */}
+        <div className="slides" style={{ marginLeft: `-${currentSlide * 100}%` }}>
+          {slides.map((slide) => (
+            <div className="slide" id={slide.id} key={slide.id}>
+              <div className='slide_content'>
+                <span className='span_slide'>{slide.title}</span>
+                <span className='textPrincipal'>{slide.description}</span>
+                <label className='label_slide'>{slide.label}</label>
+                <button className='btn_slide'>Ver ofertas</button>
+              </div>
+              <div className='slide_img'>
+                <img src={slide.image} alt={slide.title} />
+                <div className='ImgContainerCarrosel'>
+                  <img src={img} alt="Ornamento" />
+                </div>
+              </div>
             </div>
-            <div className='slide_img'>
-              <img src="https://i.ibb.co/Jysdmz6/White-Sneakers-PNG-Clipart-2.png" alt="" />
-            </div>
-          </div>
-          <div className="slide" id="slide2">
-            <div className='slide_content'>
-              <span>Melhores ofertas personalizadas</span>
-              <span>🔥 Queima de estoque Nike </span>
-              <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt deleniti illo qui.</label>
-              <button className='btn_slide'>Ver ofertas</button>
-            </div>
-            <div id='img1' className='slide_img'>
-              <img src="https://www.rodrigoroehniss.com.br/wp-content/uploads/2021/01/Saucony_Kinvara_12_Site-removebg-preview.png" alt="" />
-            </div>
-          </div>
-          <div className="slide" id="slide3">
-            <div className='slide_content'>
-              <span>Melhores ofertas personalizadas</span>
-              <span className='textPrincipal'>Queima de estoque Nike 🔥</span>
-              <label className='label_slide'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt deleniti illo qui, cum sunt ipsam praesentium vitae nam dolore tempore laborum, fugit a? Numquam deserunt, omnis nihil accusamus temporibus quos.</label>
-              <button className='btn_slide'>Ver ofertas</button>
-            </div>
-            <div className='slide_img'>
-              <img src="https://i.ibb.co/Jysdmz6/White-Sneakers-PNG-Clipart-2.png" alt="" />
-            </div>
-          </div>
-          <div className="slide" id="slide4">
-            <div className='slide_content'>
-              <span>Melhores ofertas personalizadas</span>
-              <span className='textPrincipal'>Queima de estoque Nike 🔥</span>
-              <label className='label_slide'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt deleniti illo qui, cum sunt ipsam praesentium vitae nam dolore tempore laborum, fugit a? Numquam deserunt, omnis nihil accusamus temporibus quos.</label>
-              <button className='btn_slide'>Ver ofertas</button>
-            </div>
-            <div className='slide_img'>
-              <img src="https://i.ibb.co/Jysdmz6/White-Sneakers-PNG-Clipart-2.png" alt="" />
-            </div>
-          </div>
+          ))}
         </div>
 
+        {/* Navegação manual (se desejar) */}
         <div className="manual_navigation">
-          <label htmlFor="radio1" className="manual_btn"></label>
-          <label htmlFor="radio2" className="manual_btn"></label>
-          <label htmlFor="radio3" className="manual_btn"></label>
-          <label htmlFor="radio4" className="manual_btn"></label>
+          {slides.map((slide, index) => (
+            <label
+              key={slide.id}
+              className={`manual_btn ${currentSlide === index ? 'active' : ''}`}
+              onClick={() => setCurrentSlide(index)}
+            ></label>
+          ))}
         </div>
       </div>
     </div>
   );
 }
 
-export default Carrossel;
+export default Main;

@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.Container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+.slider {
+    margin: 0 auto;
+    width: 90%;
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    width: 400%;
+    height: 100%;
+    display: flex;
+    transition: margin-left 1s ease-in-out; /* Suaviza a transição de margem */
+}
+
+.slider input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.slide_img {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.span_slide {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #F6AA1C;
+}
+
+.textPrincipal {
+    height: auto; 
+    max-width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #1F1F1F;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 66px;
+    letter-spacing: 0.9999998807907104px;
+}
+
+.radio_btn {
+    width: 20px;
+    height: 12px;
+}
+
+#img1 img {
+    display: flex;
+    transform: scaleX(-1) rotate(20deg);
+    width: 90%;
+    height: 90%;
+}
+
+#img1 img:hover {
+    transition: 0.2s ease-in-out; /* Suaviza o hover */
+    transform: scaleX(-1) rotate(25deg);
+    width: 80%;
+    height: 90%;
+}
+
+.slide_img img {
+    display: flex;
+    transition: transform 0.5s ease-in-out, width 0.5s ease-in-out; /* Transição suave */
+    transform: rotate(-20deg);
+    width: 550px;
+    height: 300px;
+}
+
+.slide_img img:hover {
+    transition: transform 0.2s ease-in-out, width 0.2s ease-in-out; /* Transição suave no hover */
+}
+
+.manual_navigation {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.manual_btn {
+    height: 3px;
+    width: 3px;
+    border: none;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #CCCCCC;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Suaviza a transição de cor e aumento */
+}
+
+.manual_btn.active {
+    background-color: #C92071;
+    transform: scale(1.2); /* Efeito de aumento no botão ativo */
+}
+
+#radio1:checked ~ .slides {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .slides {
+    margin-left: -100%;
+}
+
+#radio3:checked ~ .slides {
+    margin-left: -200%;
+}
+
+#radio4:checked ~ .slides {
+    margin-left: -300%;
+}
+
+.slide_content {
+    font-family: 'Inter', sans-serif;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3%;
+}
+
+.label_slide {
+    max-width: 85%;
+    color: hsla(0, 0%, 28%, 1);
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.btn_slide {
+    margin-left: 1%;
+    width: 40%;
+    height: 10%;
+    border-radius: 7px;
+    border: none;
+    background-color: #C92071;
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    cursor: pointer;
+}
+
+#radio1:checked ~ .manual_navigation label[for="radio1"],
+#radio2:checked ~ .manual_navigation label[for="radio2"],
+#radio3:checked ~ .manual_navigation label[for="radio3"],
+#radio4:checked ~ .manual_navigation label[for="radio4"] {
+    background-color: #C92071;
+}
+
+.ImgContainerCarrosel {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    align-items: start;
+}
+
+.ImgContainerCarrosel img {
+    margin-top: 25px;
+    height: 23%;
+    width: auto;
+}
+
+.SearchArea::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.SearchArea {
+    text-align: center;
+}

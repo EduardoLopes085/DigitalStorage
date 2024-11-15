@@ -12,7 +12,7 @@ function Header(){
                 
                     <a href=""> <img src={logo} alt="" />  </a>
                     <nav className='NavTop'>
-                        <input className='SearchArea' type="text" placeholder='Pesquisar produto...' />
+                        <input className='SearchAreaHeader' type="text" placeholder='Pesquisar produto...' />
                         <a className='NavTopCadastrese'  href="">Cadastre-se</a>
                         <button>Entrar</button>
                         <img className='NavTopCart' src={cart} alt="" />
