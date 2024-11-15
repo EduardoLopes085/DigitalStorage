@@ -18,26 +18,26 @@ function MainContent(){
 
                 <section className="CollectionTop">
                     
-                    <h1>coleções em destaque</h1>
+                    <h1>Coleções em destaque</h1>
 
                     <div className="CollectionImg" >
                         
                         <div className='CollectionCard1' >
                             <h1>30% OFF</h1>
 
-                            <button>comprar</button>
+                            <button>Comprar</button>
                        </div>
 
                        <div className='CollectionCard2'>
                             <h1>30% OFF</h1>
 
-                            <button> comprar </button>
+                            <button> Comprar </button>
                        </div>
 
                        <div className='CollectionCard3' >
                             <h1>30% OFF</h1>
 
-                            <button> comprar </button>
+                            <button> Comprar </button>
                        </div>
 
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 .Header{
     display: flex;
     flex-direction: column;
@@ -57,7 +59,8 @@
     align-items: center;
     justify-content: space-around;
     
-    
+    border: none;
+    text-decoration: none;
     /**olha o padding do Header**/
 
 
@@ -104,17 +107,20 @@
 }
 
 
-
-
-
-.NavTop input{
-    width: 800px;
+.NavTop .SearchArea {
+    width: 60%;
     height: 3rem;
-
     border: none;
     border-radius: 15px;
+    outline: none;
+    background-color: #e2e0e0;
     
-    background-color:  #F1F1F1;
+}
+
+.SearchArea::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #999; 
 
 }
 
@@ -150,7 +156,12 @@
 
 .HeaderBotton .NavBotton a {
     text-decoration: none;
-    color: #1F1F1F;
+    color: #474747;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+
     position: relative;
     transition: color 0.3s ease-in-out;
 }
