@@ -1,6 +1,8 @@
 import logo from '../../assets/logo-header.svg'
 import cart from '../../assets/mini-cart.svg'
 import '../Header/header.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header(){
 
@@ -23,8 +25,8 @@ function Header(){
                 
                     <nav className='NavBotton'>
                 
-                        <a href="">Home</a>
-                        <a href="">Produtos</a>
+                        <Link to="/">Home</Link>
+                        <Link to="/produtos">Produtos</Link>
                         <a href="">Categorias</a>
                         <a href="">Meus Pedidos</a>
 

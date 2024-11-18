@@ -25,7 +25,7 @@ function productCard(){
                         
                         <p className='productStars' >estrelas</p>
                         
-                        <span className='productPrice' >R$ 219,00</span>
+                        <span className='productPrice'> <p className='priceWithDiscount' > R$219.00</p> <p className='price' >R$300.00</p> </span>
                         
                         <p className='productDescriptionTitle' >Desrição do produto</p>
                         
@@ -33,7 +33,7 @@ function productCard(){
                         
                         <p className='Size'>Tamanho</p>
                         
-                        <p className='productSizes' >39 40 41 42 43</p>
+                        <p className='productSizes'> <button>39 </button> <button>40</button>  <button>41</button> <button>42</button> <button>43</button> </p>
                         
                         <p className='colors'>cor</p>
                         
