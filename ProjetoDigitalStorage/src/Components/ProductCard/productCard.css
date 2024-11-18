@@ -1,13 +1,13 @@
 .productCard{
     width: 100%;
-    height: 90vh;
+    height: 70vh;
 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 
-    background-color: #FFFF;
+    background-color: #F9F8FE;
     
 
     font-family: Inter;
@@ -23,7 +23,7 @@
     align-items: flex-start;
 
 
-    background-color: #FFFF;
+    background-color: #F9F8FE;
 }
 
 .productRoute{
@@ -31,7 +31,7 @@
 
     height: 5%;
 
-    background-color: #FFFF;
+    background-color: #F9F8FE;
 
 }
 
@@ -53,7 +53,7 @@
     align-items: center;
     justify-content: center;
 
-    background-color: #E2E3FF;
+    background-color: #F9F8FE;
 }
 
 

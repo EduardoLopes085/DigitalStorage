@@ -1,35 +1,17 @@
-import './App.css'
-import Footer from './Components/Footer'
-import Header from './Components/Header'
-import MainContent from './Components/Main'
-import MainBottom from './Components/Main_bottom'
-import MainCards from './Components/MainCards'
-// import ProductCard from './Components/ProductCard'
-import Carrossel from './Components/Carrossel'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './Pages/HomePage/HomePage';
+import Produto from './Pages/ProductPage/ProductPage';
+import './App.css';
 
 function App() {
-  
-
   return (
-    <>
-      <Header/>
-
-      <Carrossel/> 
-
-      <MainContent/> 
-      
-      <MainCards/>
-
-      <MainBottom/>
-
-      <Footer/>
-
-      {/* <ProductCard/> */}
-
-      {/* <ListaDeTenis limit={8} /> */}
-
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />  
+        <Route path="/produtos" element={<Produto/>} />            
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
