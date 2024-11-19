@@ -1,5 +1,10 @@
 import '../ProductCard/productCard.css'
 import img from '../../public/collection-1.png'
+import React, { useState } from 'react';
+
+import ProductCardSelection from '../ProductCardSelection';
+
+
 
 function productCard(){
     return(
@@ -14,6 +19,7 @@ function productCard(){
                 <div className='productCardBuy'>
 
                     <div className='BuyCarroussel'>
+                        
                         <img src={img} alt="" />
                     </div>
                 
@@ -31,17 +37,8 @@ function productCard(){
                         
                         <p className='productDescriptionText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                         
-                        <p className='Size'>Tamanho</p>
-                        
-                        <p className='productSizes'> <button>39 </button> <button>40</button>  <button>41</button> <button>42</button> <button>43</button> </p>
-                        
-                        <p className='colors'>cor</p>
-                        
-                        <div className="productColors">
-                            <span className="color-circle" style={{ backgroundColor: '#6FEEFF' }}></span>
-                            <span className="color-circle" style={{ backgroundColor: '#FF6969' }}></span>
-                            <span className="color-circle" style={{ backgroundColor: '#5E5E5E' }}></span>
-                            <span className="color-circle" style={{ backgroundColor: '#6D70B7' }}></span>
+                        <div>
+                            <ProductCardSelection/> 
                         </div>
                         
                         <button className='productButton'>comprar</button>
