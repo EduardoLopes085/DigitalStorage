@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
 
-    background-color: #F9F8FE;
+    background-color: #f9f8fea5;
     
 
     font-family: 'Inter', sans-serif;
@@ -25,7 +25,7 @@
     align-items: flex-start;
 
 
-    background-color: #F9F8FE;
+    background-color: #f9f8fea5;
 }
 
 .productRoute{
@@ -33,7 +33,7 @@
 
     height: 5%;
 
-    background-color: #F9F8FE;
+    background-color: #f9f8fea5;
 
 }
 
@@ -55,7 +55,7 @@
     align-items: center;
     justify-content: center;
 
-    background-color: #F9F8FE;
+    background-color: #8180831c;
 }
 
 
@@ -64,6 +64,11 @@
     width: 50%;
 
     background-color: yellow;
+}
+
+.BuyCarroussel > img{
+    width: 100%;
+    height: 100%;
 }
 
 .productDescription{
@@ -78,7 +83,7 @@
 
     gap: 2%;
 
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
 }
 
 .productDescription .productName{
@@ -162,6 +167,7 @@
 
 
 .productDescription .productDescriptionText{
+    width: 75%;
     font-family: 'Inter', sans-serif;
     font-size: 75%;
     font-weight: 500;
@@ -182,32 +188,89 @@
 
 
 .productDescription .productSizes{
-    width: 60%;
+    width: 50%;
     height: 10%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 
+    
+
 }
 
-.productDescription .productSizes > button{
-    height: 100%;
-    width: 13%;
-    background-color:rgb(255, 255, 255);
+.productDescription .productSizes > button {
+    font-family: 'Inter', sans-serif;
+    height: 70%;
+    width: 15%;
+    background-color: rgb(255, 255, 255);
     border-radius: 4px;
     color: rgba(71, 71, 71, 1);
+    font-size: 100%;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona a transição suave */
 }
 
+.productDescription .productSizes > button:active {
+    background-color: #C92071; /* Cor de fundo quando pressionado */
+    color: #FFFFFF; /* Cor do texto quando pressionado */
+}
+
+.productDescription .colors{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 100%;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: rgba(143, 143, 143, 1);
+}
+
+.productCard .ProductColors{
+    height: 6%;
+    width: 29%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+    
+    
+}
+
+.productColors .procuctBlue{
+    height: 100%;
+    width: 2%;
 
 
+    background-color: #6FEEFF;
+}
 
+.productButton{
+    background-color: #FFB31F;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
 
+    width: 24%;
+    height: 6%;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
 
-
-
-
-
+.productColors {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .color-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+  }
 
 
 

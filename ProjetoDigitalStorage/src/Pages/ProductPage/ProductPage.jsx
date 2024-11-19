@@ -1,13 +1,13 @@
 //../../Pages/HomePage
 import Footer from '../../Components/Footer';
 import Header from '../../Components/Header';
-import ProductCard from '../../Components/ProductCard/index'
+import ProductsList from '../../Components/ProductList';
 
 const HomePage = () => {
   return (
     <>
       <Header />
-      <ProductCard/>
+      <ProductsList/>
       <Footer />
     </>
   );

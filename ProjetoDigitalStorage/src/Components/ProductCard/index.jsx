@@ -37,7 +37,12 @@ function productCard(){
                         
                         <p className='colors'>cor</p>
                         
-                        <p className='productColors'>azul salmon cinza roxo</p>
+                        <div className="productColors">
+                            <span className="color-circle" style={{ backgroundColor: '#6FEEFF' }}></span>
+                            <span className="color-circle" style={{ backgroundColor: '#FF6969' }}></span>
+                            <span className="color-circle" style={{ backgroundColor: '#5E5E5E' }}></span>
+                            <span className="color-circle" style={{ backgroundColor: '#6D70B7' }}></span>
+                        </div>
                         
                         <button className='productButton'>comprar</button>
 
