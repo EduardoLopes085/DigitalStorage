@@ -1,0 +1,26 @@
+.SneakerContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.FilterSnikersList{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center ;
+}
+
+.SneakerList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    width: auto;
+    height: auto;
+    
+}

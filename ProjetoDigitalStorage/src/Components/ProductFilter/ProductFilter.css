@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+.filtro {
+  font-family: 'Inter', sans-serif;
+  color: #474747;
+  width: 100%;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.filterAlign{
+  width: 80%;
+  height: 100%;
+  
+  
+}
+  
+  .filtro h3 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #474747;
+  }
+  
+  .filtro h4 {
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #474747;
+  }
+  
+  .filtro label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    color: #474747;
+  }
+  
+  .filtro input[type="checkbox"],
+  .filtro input[type="radio"] {
+    accent-color: #C92071;
+    margin-right: 0.5rem;
+  }
+  
+  .filtro input {
+    cursor: pointer;
+  }
+  
+  .filtro input:checked + label {
+    font-weight: 400;
+    color: #474747;
+  }
+  

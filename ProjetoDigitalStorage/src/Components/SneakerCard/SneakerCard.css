@@ -1,0 +1,50 @@
+.Card{
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+    
+}
+
+.Card .CardCenter .CardBackground{
+    width: 90%;
+    height: 80%
+}
+
+.Card .CardCenter {
+    width: 70%;
+    height: 90%;
+    cursor: pointer;
+   
+
+    /* Adiciona a transição para suavizar o efeito de zoom */
+    transition: transform 0.3s ease-in-out;
+}
+
+.Card .CardCenter:hover {
+    /* Aplica o efeito de zoom */
+    transform: scale(1.1);
+}
+
+.Card .CardBackground {
+    width: 100%;
+    height: 85%;
+
+    /* background-image: url(../../public/produc-image-1.jpeg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: chartreuse; */
+}
+
+.Card .CardText {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.99vh;
+}
+ 

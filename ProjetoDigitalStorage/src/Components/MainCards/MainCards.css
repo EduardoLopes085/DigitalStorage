@@ -82,7 +82,7 @@
     /* background-color: azure; */
 */
 
-.CardContainer .Card{
+.Card{
     width: 25%;
     height: 100%;
 
@@ -96,12 +96,12 @@
     /* background-color: cadetblue; */
 }
 
-.CardContainer .Card img{
+.Card img{
     width: 200px;
     height: 200px;
 }
 
-.CardContainer .Card .CardCenter {
+.Card .CardCenter {
     width: 78%;
     height: 90%;
     cursor: pointer;
@@ -111,12 +111,12 @@
     transition: transform 0.3s ease-in-out;
 }
 
-.CardContainer .Card .CardCenter:hover {
+.Card .CardCenter:hover {
     /* Aplica o efeito de zoom */
     transform: scale(1.1);
 }
 
-.CardContainer .Card .CardBackground {
+.Card .CardBackground {
     width: 100%;
     height: 85%;
 
@@ -126,7 +126,7 @@
     /* background-color: chartreuse; */
 }
 
-.CardContainer .Card .CardText {
+.Card .CardText {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 1.99vh;

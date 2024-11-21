@@ -1,6 +1,5 @@
 import '../ProductCard/productCard.css'
 import img from '../../public/collection-1.png'
-import React, { useState } from 'react';
 
 import ProductCardSelection from '../ProductCardSelection';
 

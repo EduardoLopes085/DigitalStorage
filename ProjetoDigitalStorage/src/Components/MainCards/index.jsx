@@ -3,6 +3,7 @@ import '../MainCards/MainCards.css'
 
 import arrow from '../../public/line-arrow.png'
 
+
 function MainCards(){
     return(
         <div className="ProductsCard">
@@ -18,28 +19,6 @@ function MainCards(){
                     
 
                 <div className='CardContainer'>
-                   
-
-                        <div className="Card">
-                                                   
-                            <div className='CardCenter' >
-
-                                {/* <div className='CardBackground'> </div> */}
-                                <img className='CardBackground'  src={tenis} alt="" />
-                                <div className='CardText' >
-                                    <div>
-                                        K-Swiss V8 - Masculino
-                                    </div>
-                                    <div>
-                                        $200 - $100
-                                    </div>
-                                </div>
-
-                            </div>
-
-
-
-                        </div>
 
                         <div className="Card">
                         
@@ -59,126 +38,7 @@ function MainCards(){
                             </div>
                         </div>
 
-                        <div className="Card">
                         
-                            <div className='CardCenter' >
-
-                                {/* <div className='CardBackground'> </div> */}
-                                <img className='CardBackground'  src={tenis} alt="" />
-                                <div className='CardText' >
-                                    <div>
-                                        K-Swiss V8 - Masculino
-                                    </div>
-                                    <div>
-                                        $200 - $100
-                                    </div>
-                                </div>
-
-                            </div>
-                        
-                        </div>
-
-
-                        <div className="Card">
-                        
-                           <div className='CardCenter' >
-
-                                {/* <div className='CardBackground'> </div> */}
-                                <img className='CardBackground'  src={tenis} alt="" />
-                                <div className='CardText' >
-                                    <div>
-                                        K-Swiss V8 - Masculino
-                                    </div>
-                                    <div>
-                                        $200 - $100
-                                    </div>
-                                </div>
-
-                            </div>
-                        
-                        </div>
-
-                    
-
-                    
-                        
-                        <div className="Card">
-                                                   
-                                                   <div className='CardCenter' >
-                       
-                                                       {/* <div className='CardBackground'> </div> */}
-                                                       <img className='CardBackground'  src={tenis} alt="" />
-                                                       <div className='CardText' >
-                                                           <div>
-                                                               K-Swiss V8 - Masculino
-                                                           </div>
-                                                           <div>
-                                                               $200 - $100
-                                                           </div>
-                                                       </div>
-                       
-                                                   </div>
-                       
-                       
-                       
-                                               </div>
-                       
-                                               <div className="Card">
-                                               
-                                                   <div className='CardCenter' >
-                       
-                                                       {/* <div className='CardBackground'> </div> */}
-                                                       <img className='CardBackground'  src={tenis} alt="" />
-                                                       <div className='CardText' >
-                                                           <div>
-                                                               K-Swiss V8 - Masculino
-                                                           </div>
-                                                           <div>
-                                                               $200 - $100
-                                                           </div>
-                                                       </div>
-                       
-                                                   </div>
-                                               </div>
-                       
-                                            <div className="Card">
-                                               
-                                                <div className='CardCenter' >
-                       
-                                                    {/* <div className='CardBackground'> </div> */}
-                                                    <img className='CardBackground'  src={tenis} alt="" />
-                                                    <div className='CardText' >
-                                                        <div>
-                                                            K-Swiss V8 - Masculino
-                                                        </div>
-                                                        <div>
-                                                            $200 - $100
-                                                        </div>
-                                                    </div>
-                       
-                                                </div>
-                                               
-                                            </div>
-                       
-                       
-                                            <div className="Card">
-                                               
-                                                <div className='CardCenter' >
-                       
-                                                    {/* <div className='CardBackground'> </div> */}
-                                                    <img className='CardBackground'  src={tenis} alt="" />
-                                                    <div className='CardText' >
-                                                        <div>
-                                                            K-Swiss V8 - Masculino
-                                                        </div>
-                                                        <div>
-                                                            $200 - $100
-                                                        </div>
-                                                    </div>
-                       
-                                                </div>
-                                               
-                        </div>
                 </div>
 
                     

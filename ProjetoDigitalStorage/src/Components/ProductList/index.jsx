@@ -1,225 +1,110 @@
-import tenis from '../../public/Layer-2.png'
-import '../ProductList/ProductList.css'
+import tenis from '../../public/Layer-2.png';
+import '../ProductList/ProductList.css';
 
-import arrow from '../../public/line-arrow.png'
+import arrow from '../../public/line-arrow.png';
+import Filtro from '../ProductFilter';
 
 function ProductsList() {
     return (
-        <div className="ProductsCard">
-
-            <div className="ProductsCardContainer" >
-
-                <div className='HeaderCard'>
+        <div className="ProductosCard">
+            <div className="ProductosCardContainer">
+                <div className="HeaderCards">
                     <h1>Produtos em alta</h1>
-
-                    <a href=""> ver todos <img src={arrow} alt="" /> </a>
+                    <a href="">
+                        ver todos <img src={arrow} alt="" />
+                    </a>
                 </div>
 
-                <div className='ProductResult'>
-
-                    <div className='productFilter'>
-                        <p>aaaa</p>
-                        <p>aa</p>
-                        <p>aaaaa</p>
+                <div className="ProdutoResultado">
+                    <div className="produtoFiltro">
+                        <Filtro />
                     </div>
 
-                    <div className='CardContainer'>
-
-
-                        <div className="Card">
-
-                            <div className='CardCenter' >
-
-                                {/* <div className='CardBackground'> </div> */}
-                                <img className='CardBackground' src={tenis} alt="" />
-                                <div className='CardText' >
-                                    <div>
-                                        K-Swiss V8 - Masculino
-                                    </div>
-                                    <div>
-                                        $200 - $100
-                                    </div>
+                    <div className="CardConteiner">
+                        <div className="Carde">
+                            <div className="CardeCenter">
+                                <img className="CardeFundo" src={tenis} alt="" />
+                                <div className="CardeTexto">
+                                    <div>K-Swiss V8 - Masculino</div>
+                                    <div>$200 - $100</div>
                                 </div>
-
-                            </div>
-
-
-
-                        </div>
-
-                        <div className="Card">
-
-                            <div className='CardCenter' >
-
-                                {/* <div className='CardBackground'> </div> */}
-                                <img className='CardBackground' src={tenis} alt="" />
-                                <div className='CardText' >
-                                    <div>
-                                        K-Swiss V8 - Masculino
-                                    </div>
-                                    <div>
-                                        $200 - $100
-                                    </div>
-                                </div>
-
                             </div>
                         </div>
 
-                        <div className="Card">
-
-                            <div className='CardCenter' >
-
-                                {/* <div className='CardBackground'> </div> */}
-                                <img className='CardBackground' src={tenis} alt="" />
-                                <div className='CardText' >
-                                    <div>
-                                        K-Swiss V8 - Masculino
-                                    </div>
-                                    <div>
-                                        $200 - $100
-                                    </div>
+                        <div className="Carde">
+                            <div className="CardeCenter">
+                                <img className="CardeFundo" src={tenis} alt="" />
+                                <div className="CardeTexto">
+                                    <div>K-Swiss V8 - Masculino</div>
+                                    <div>$200 - $100</div>
                                 </div>
-
-                            </div>
-
-                        </div>
-
-
-                        <div className="Card">
-
-                            <div className='CardCenter' >
-
-                                {/* <div className='CardBackground'> </div> */}
-                                <img className='CardBackground' src={tenis} alt="" />
-                                <div className='CardText' >
-                                    <div>
-                                        K-Swiss V8 - Masculino
-                                    </div>
-                                    <div>
-                                        $200 - $100
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-
-
-
-
-                        <div className="Card">
-
-                            <div className='CardCenter' >
-
-                                {/* <div className='CardBackground'> </div> */}
-                                <img className='CardBackground' src={tenis} alt="" />
-                                <div className='CardText' >
-                                    <div>
-                                        K-Swiss V8 - Masculino
-                                    </div>
-                                    <div>
-                                        $200 - $100
-                                    </div>
-                                </div>
-
-                            </div>
-
-
-
-                        </div>
-
-                        <div className="Card">
-
-                            <div className='CardCenter' >
-
-                                {/* <div className='CardBackground'> </div> */}
-                                <img className='CardBackground' src={tenis} alt="" />
-                                <div className='CardText' >
-                                    <div>
-                                        K-Swiss V8 - Masculino
-                                    </div>
-                                    <div>
-                                        $200 - $100
-                                    </div>
-                                </div>
-
                             </div>
                         </div>
 
-                        <div className="Card">
-
-                            <div className='CardCenter' >
-
-                                {/* <div className='CardBackground'> </div> */}
-                                <img className='CardBackground' src={tenis} alt="" />
-                                <div className='CardText' >
-                                    <div>
-                                        K-Swiss V8 - Masculino
-                                    </div>
-                                    <div>
-                                        $200 - $100
-                                    </div>
+                        <div className="Carde">
+                            <div className="CardeCenter">
+                                <img className="CardeFundo" src={tenis} alt="" />
+                                <div className="CardeTexto">
+                                    <div>K-Swiss V8 - Masculino</div>
+                                    <div>$200 - $100</div>
                                 </div>
-
                             </div>
-
                         </div>
 
-
-                        <div className="Card">
-
-                            <div className='CardCenter' >
-
-                                {/* <div className='CardBackground'> </div> */}
-                                <img className='CardBackground' src={tenis} alt="" />
-                                <div className='CardText' >
-                                    <div>
-                                        K-Swiss V8 - Masculino
-                                    </div>
-                                    <div>
-                                        $200 - $100
-                                    </div>
+                        <div className="Carde">
+                            <div className="CardeCenter">
+                                <img className="CardeFundo" src={tenis} alt="" />
+                                <div className="CardeTexto">
+                                    <div>K-Swiss V8 - Masculino</div>
+                                    <div>$200 - $100</div>
                                 </div>
-
                             </div>
-
                         </div>
 
+                        <div className="Carde">
+                            <div className="CardeCenter">
+                                <img className="CardeFundo" src={tenis} alt="" />
+                                <div className="CardeTexto">
+                                    <div>K-Swiss V8 - Masculino</div>
+                                    <div>$200 - $100</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="Carde">
+                            <div className="CardeCenter">
+                                <img className="CardeFundo" src={tenis} alt="" />
+                                <div className="CardeTexto">
+                                    <div>K-Swiss V8 - Masculino</div>
+                                    <div>$200 - $100</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="Carde">
+                            <div className="CardeCenter">
+                                <img className="CardeFundo" src={tenis} alt="" />
+                                <div className="CardeTexto">
+                                    <div>K-Swiss V8 - Masculino</div>
+                                    <div>$200 - $100</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="Carde">
+                            <div className="CardeCenter">
+                                <img className="CardeFundo" src={tenis} alt="" />
+                                <div className="CardeTexto">
+                                    <div>K-Swiss V8 - Masculino</div>
+                                    <div>$200 - $100</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-
                 </div>
-
-
-
-
             </div>
-
         </div>
+    );
+}
 
-
-
-
-    )
-
-
-} export default ProductsList;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export default ProductsList;
