@@ -1,8 +1,12 @@
+import { useNavigate } from 'react-router-dom';
 import '../SneakerCard/SneakerCard.css'
 
 function SneakerCard(props) {
+    
+    const navigate = useNavigate()
+    
     return (
-        <div className="Card">
+        <div className="Card" onClick={() => navigate(`/produtos/${props.id}`)} >
             <div className="CardCenter">
                 <img className="CardBackground" src={props.img} alt={props.name} />
                 <div className="CardText">

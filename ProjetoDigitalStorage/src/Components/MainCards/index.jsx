@@ -13,7 +13,7 @@ function MainCards(){
                 <div className='HeaderCard'>
                     <h1>Produtos em alta</h1>
 
-                    <a href=""> ver todos <img src={arrow} alt="" /> </a>
+                    <a href="http://localhost:5173/produtos"> ver todos <img src={arrow} alt="" /> </a>
                 </div>
 
                     

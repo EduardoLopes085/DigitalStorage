@@ -43,6 +43,7 @@ function SneakerList() {
                 <div className="SneakerList">
                     {shoes.map((shoe) => (
                         <SneakerCard
+                            id = {shoe.id}
                             key={shoe.id}  
                             name={shoe.nome} 
                             price={shoe.preco_original} 

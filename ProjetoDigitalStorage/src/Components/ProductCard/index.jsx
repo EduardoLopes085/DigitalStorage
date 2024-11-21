@@ -2,11 +2,16 @@ import '../ProductCard/productCard.css'
 import img from '../../public/collection-1.png'
 
 import ProductCardSelection from '../ProductCardSelection';
-
+import { useParams } from 'react-router-dom';
 
 
 function productCard(){
+    
+    const { id } = useParams();
+    
+    console.log(id)
     return(
+        
         <div className="productCard">
 
             <div className="pCardContainer" >    
