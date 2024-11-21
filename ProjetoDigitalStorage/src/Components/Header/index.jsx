@@ -11,7 +11,7 @@ function Header(){
             <div className='HeaderContainer'>
                 <div className='HeaderTop'>
                 
-                    <a href=""> <img src={logo} alt="" />  </a>
+                    <a href="http://localhost:5173/"> <img src={logo} alt="" />  </a>
                     <nav className='NavTop'>
                         <input className='SearchAreaHeader' type="text" placeholder='Pesquisar produto...' />
                         <a className='NavTopCadastrese'  href="">Cadastre-se</a>

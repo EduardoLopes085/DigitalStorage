@@ -28,7 +28,7 @@ const Filtro = () => {
         <div>
           <h3>Filtrar por</h3>
           <div>
-            <h4>Marka</h4>
+            <h4>Marca</h4>
             {['Adidas', 'Calenciaga', 'K-Swiss', 'Nike', 'Puma'].map((marca) => (
               <label key={marca}>
                 <input

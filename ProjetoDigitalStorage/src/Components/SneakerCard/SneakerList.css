@@ -9,12 +9,13 @@
     
 }
 
-
 .FilterSnikersList{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: center ;
+    justify-content: center;
+
+    background-color: #F8F8FE;
 }
 
 .SneakerList {
@@ -22,5 +23,6 @@
     grid-template-columns: repeat(3, 1fr); 
     width: auto;
     height: auto;
+    
     
 }

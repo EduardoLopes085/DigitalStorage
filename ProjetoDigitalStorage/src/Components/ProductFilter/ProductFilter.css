@@ -12,8 +12,14 @@
 
 
 .filterAlign{
-  width: 80%;
+  width: 58%;
   height: 100%;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
   
   
 }
@@ -22,6 +28,7 @@
     font-weight: 700;
     margin-bottom: 1rem;
     color: #474747;
+    font-family: 'Inter', sans-serif;
   }
   
   .filtro h4 {
@@ -29,6 +36,7 @@
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     color: #474747;
+    font-family: 'Inter', sans-serif;
   }
   
   .filtro label {
@@ -37,12 +45,14 @@
     margin-bottom: 0.5rem;
     font-weight: 400;
     color: #474747;
+    font-family: 'Inter', sans-serif;
   }
   
   .filtro input[type="checkbox"],
   .filtro input[type="radio"] {
     accent-color: #C92071;
     margin-right: 0.5rem;
+    font-family: 'Inter', sans-serif;
   }
   
   .filtro input {
@@ -52,5 +62,6 @@
   .filtro input:checked + label {
     font-weight: 400;
     color: #474747;
+    font-family: 'Inter', sans-serif;
   }
   
