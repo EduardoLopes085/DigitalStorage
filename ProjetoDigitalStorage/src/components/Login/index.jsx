@@ -13,7 +13,7 @@ function login(){
 const history = useNavigate(); 
     // Função que será chamada no submit do formulário
     const onSubmit = (data) => {
-      console.log(data); // Aqui você pode processar o login, fazer a autenticação, etc.
+      console.log(data); // aqui vai retornar as infos que foram passadas no campos abaixo.
       // Exemplo de redirecionamento após login (simulando sucesso)
       history('/login')
      // Redirecionar para outra página após login bem-sucedido
@@ -24,6 +24,7 @@ const history = useNavigate();
         <div className='Total'>
         <div className="containerLogin">
             <div className="CardLoginText">
+{/*                 // o onSubmit so sera feito, se passar pelo handleSubmit, que é necessario que o usuário preencha os inputs que estão com require. */}
                 <form onSubmit={handleSubmit(onSubmit)}className="TextLogin">
                     <div className='TextPrincipal'>
                     <h3 className='h3Login'>Acesse sua conta</h3>
@@ -31,6 +32,7 @@ const history = useNavigate();
                     </div>
                     <div className='Email'>
                     <span >Login*</span>
+{/*                aqui ele vai ligar esse input ao inputLogin, e quando formos ver o data esse campo vai ser preenchido por esse campo.      */}
                     <input type="email" className="inputLogin"  placeholder='Insira seu email' {...register("inputLogin", { required: true })} />
                     </div>
                     <div className='Email'>
