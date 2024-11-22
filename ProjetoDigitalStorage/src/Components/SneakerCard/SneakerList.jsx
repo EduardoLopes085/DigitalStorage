@@ -14,6 +14,8 @@ function SneakerList() {
     useEffect(() => {
         const fetchShoes = async () => {
             try {
+                //'https://673b2a53339a4ce4451aea97.mockapi.io/api/products'
+                // const response = await fetch('https://api-store-do1w.onrender.com/shoes'); 
                 const response = await fetch('https://api-store-do1w.onrender.com/shoes'); 
                 if (!response.ok) throw new Error('Erro ao carregar os dados');
                 const data = await response.json(); 
@@ -34,11 +36,10 @@ function SneakerList() {
 
     return (
         
-        <div className='SneakerContainer'>
+        
             
-            <div className='FilterSnikersList'>
+           
                 
-                <ProductFilter/>
                 
                 <div className="SneakerList">
                     {shoes.map((shoe) => (
@@ -49,11 +50,12 @@ function SneakerList() {
                             price={shoe.preco_original} 
                             discount={shoe.preco_desconto} 
                             img={shoe.imagem_url} 
+                            
                         />
                     ))}
                 </div>
-            </div>
-        </div>
+         
+        
     );
 }
 
