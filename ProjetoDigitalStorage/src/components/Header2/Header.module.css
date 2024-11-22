@@ -1,0 +1,155 @@
+  
+  
+  .ContainerHeader{
+    font-family: Inter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+  }
+.header {
+    width: 95%;
+    height: auto;
+    justify-content: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header img{
+    cursor: pointer;
+   
+
+}
+.hea_2{
+ width: 93%;
+ display: flex;
+ align-items: space-between;
+ justify-content: flex-start;
+ height: 40px;
+ gap: 40px;
+ 
+ 
+}
+.ajs{
+    width: 97%;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.hea_1 {
+    gap: 3%;
+    width: 93%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header_img{
+    width: 220px;
+    
+}
+
+.header input{
+
+   background-image: url("https://cdn-icons-png.flaticon.com/128/2319/2319177.png");
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: 2rem;
+   background-position-x: 95%;
+   color: black;
+   width:700px;
+   height: 40px;    
+   border: none;
+   border-radius: 10px;
+   background-color: rgb(211, 211, 211, 0.3 );
+   
+}
+.header input:hover{
+    transition:0.3s;
+    background-color: rgb(211, 211, 211, 0.5);
+}
+.header placeholder{
+   margin-left:1px ;
+    
+}
+
+
+
+.hea_2  a{
+
+    font-family: Inter;
+    font-size: 15px;
+    color: #474747;
+
+    text-decoration:underline transparent;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.hea_2 a:hover{
+    font-family: Inter;
+    transition:  ease;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 2px;
+    color:#C92071;
+    text-decoration:underline 2px;
+    text-underline-offset: 4px;
+   
+}
+.hea_1 .headerbutton{
+    cursor: pointer;
+    text-decoration:none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(158, 147, 147);
+    background-color: transparent;
+    font-size:16px;
+    width:130px;
+    height: 35px;
+}
+.hea_1 .headerbutton:hover{
+    transition: 3s;
+    text-decoration:underline;
+}
+.hea_1 .headerbutton2{
+    background-color: #C92071;
+    cursor: pointer;
+    text-decoration:none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    font-size:16px;
+    width:130px;
+    height: 35px;
+}
+.hea_1 .headerbutton2:hover{
+        transition: 0.1s;
+        
+        font-size: 18px;
+}
+.div_cart{
+    height: 100px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    
+}
+.cart{
+    height: 30%;
+    width: 100%;
+}
+.cart:hover{
+    transition: 0.2s;
+    height: 35%;
+}

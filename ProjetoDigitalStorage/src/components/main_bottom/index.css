@@ -1,91 +1,103 @@
-.Container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    background-color: #FFFFFF;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
 }
 
-.container_content {
-    width: 93%;
+.MainBottom {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+    /* background-color: rgba(255, 255, 255, 1); */
+}
+
+.Textp {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.MainBottomContainer {
+    width: 80%;
     height: 100%;
     display: flex;
     flex-direction: row;
-    color: #FFFFFF;
-    align-items: center;
     justify-content: space-around;
-}
-
-.containerimg {
-    width: 38%;
-    height: 90%;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    background: linear-gradient(180deg, rgba(66, 0, 255, 0.10) -45.67%, rgba(255, 255, 255, 0.10) 100%);
+    /* background-color: rebeccapurple; */
+}
+
+.ImgBottonContainer {
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(66, 0, 255, 0.25) -170.67%, rgba(255, 255, 255, 0) 100%);
     border-radius: 50%;
-   
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    /* background-color: white; */
 }
 
-.containerimg img {
-    width: 100%;
-    max-width: 600px;
-    transition: transform 1s, width 1s;
-    transform: rotate(0deg);
+.ImgBottonContainer img {
+    width: auto;
+    height: auto;
 }
 
-.containerimg img:hover { 
-    transform: rotate(-5deg);
+.TextBottonContainer {
+    width: 50%;
+    height: 100%;
+    /* background-color: blanchedalmond; */
+}
+
+.ColumnText {
+    width: 98%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    margin-left: 2%;
+    justify-content: center;
+    /* background-color: black; */
+}
+
+.ColumnText h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(71, 71, 71, 1);
+    text-wrap: wrap;
+    word-wrap: break-word;
+}
+
+.TextOfert {
+    color: rgba(201, 32, 113, 1);
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.ColumnButton {
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease; 
+    color: rgba(245, 245, 245, 1);
+    background-color: rgba(201, 32, 113, 1);
+    height: 40px;
+    font-weight: 700;
+    width: 230px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
     cursor: pointer;
-}
-
-.ButtonMainBottom{
-background-color: #C92071;
-color: white;
-width: 30%;
-height: 40px;
-border: none;
-border-radius: 10px;
-}
-.labelMainBottom2{
-
-font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0.75px;
-text-align: left;
-
-}
-.h1MainBottom{
-
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-line-height: 50px;
-letter-spacing: 0.9999998807907104px;
-text-align: left;
-
-}
-.labelMainBottom{
-color: #C92071;
-
-font-family: Inter;
-font-size: 14px;
-font-weight: 700;
-line-height: 22px;
-letter-spacing: 0.75px;
-text-align: left;
-
-}
-
-.containerText {
-
-        display: flex;
-        flex-direction: column;
-        gap: 5%; /* Ajuste o valor conforme necessário */
-        width: 50%;
-        color: black;
-        height: 300px;
-    
 }

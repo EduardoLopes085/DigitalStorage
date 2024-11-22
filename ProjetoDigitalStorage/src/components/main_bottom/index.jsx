@@ -1,28 +1,31 @@
 import '../main_bottom/index.css'
-import img from '../img/Laye 1.png'
+import img from '../../public/laye-1.png'
 
-function Bottom(){
+function MainBottom(){
     return(
-    <div className="Container">
-     
-   <div className="container_content">
+       <div className='MainBottom'>
+            <div className='MainBottomContainer'>
 
-    <div className="containerimg">
-     <img src={img} alt="" srcset="" />
-    </div>
-    <div className="containerText">
-    <label className='labelMainBottom'>Oferta especial</label>
-    <h1 className='h1MainBottom'>Air Jordan edição de colecionador</h1>
-    <label className='labelMainBottom2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</label>
-    <button className='ButtonMainBottom'>Ver oferta</button>
-    </div>
+                <div className='ImgBottonContainer'>
+                    <img src={img} alt="" />
+                </div>
 
-   </div>
+                <div className='TextBottonContainer'>
+                    <div className='ColumnText' >
+                        
+                       
+                        <p className='TextOfert' >Oferta especial</p>
+                        <h2>Air Jordan edição de colecionador</h2>
+                        <p className='Textp'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex provident neque repellendus possimus tempore temporibus, delectus saepe ut ipsam voluptas.</p>
+                        <button className='ColumnButton'> Ver oferta </button>
+                        
 
+                    </div>
+                </div>
 
-
-    </div>
+            </div>
+       </div> 
     )
 }
 
-export default Bottom;
+export default MainBottom;

@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+.containerCadastro{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsla(250, 75%, 98%, 1);
+
+    flex-direction: column;
+    gap: 15px;
+   
+}
+
+.cardCadastro{
+    
+    width: 35%;
+    height: 30%;
+    display: flex;
+    background-color: white;
+    padding: 15px;
+    
+
+}.CardbtnCadastro{
+   
+
+     gap: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 38%;
+    padding: 20px;
+}
+
+.Conta{
+
+ width: 40%;
+ display: flex;
+ justify-content: left;
+}
+.Conta label{
+    padding: 20px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 36px;
+    letter-spacing: 0.9999998807907104px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    
+   }
+.btnCadastro{
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    height: 40px;  
+    width: 100%;
+    border: none;
+    background-color: #C92071;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    
+    
+
+}
+.labelCadastro{
+    color:  hsla(0, 0%, 28%, 1);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+   
+
+}
+.checboxLogin{
+ display: flex;
+ gap: 10px;
+}
+/* Estilizando o checkbox */
+.checkbox {
+    appearance: none;  /* Remove a aparência padrão do checkbox */
+    width: 20px;       /* Define o tamanho */
+    height: 20px;
+    border: 2px solid #C92071; /* Cor da borda */
+    border-radius: 4px; /* Borda arredondada */
+    background-color: #fff; /* Cor de fundo */
+    position: relative; /* Para posicionar o ícone de seleção */
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+  }
+  
+  /* Quando o checkbox estiver marcado */
+  .checkbox:checked {
+    background-color: #C92071; /* Cor de fundo quando marcado */
+  /* Cor da borda quando marcado */
+  }
+  
+  /* Estilo para o ícone de marcação (visto quando o checkbox estiver marcado) */
+  .checkbox:checked::after {
+    content: '✔'; /* Símbolo de marcação */
+    position: absolute;
+    top: 0;
+    left: 2px;
+    font-size: 14px;
+    color: white; /* Cor do ícone */
+  }
+  
+
+.Cadastroinfo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}  
+.Cadastroinfo span{
+    width: 90%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: hsla(0, 0%, 28%, 1);
+    
+
+
+}   
+.Cadastroinfo hr{
+    width: 90%;
+    
+}     
+.checboxCadastro{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

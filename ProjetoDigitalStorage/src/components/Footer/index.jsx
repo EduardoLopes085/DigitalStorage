@@ -1,4 +1,4 @@
-import  '../Footer/Footer.css'
+import './Footer.css'
 import logoFooter from '../../assets/logo-footer.svg'
 import facebook from '../../assets/facebook.svg'
 import instagram from '../../assets/instagram.svg'
@@ -6,73 +6,84 @@ import twitter from '../../assets/twitter.svg'
 
 
 function Footer(){
-    return (
 
-    <footer className='Footer'>
-        <div className='FooterTop'>
-            <div className='FooterLogo'>
-                <img className='logoFooter' src={logoFooter} alt="" />
-                <h5 className='FooterLogoText'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui facilis aliquam necessitatibus dolorum sint perferendis ratione distinctio inventore, nihil, minima libero quod id enim sit soluta impedit quam ullam vero!</h5>
-                <div className='FooterContent'>
-                <div>
-                    <img src={facebook} alt="" />
+    return(
+        
+        <footer className='Footer'>
+
+            <div className='FooterContainer' >
+                <div className='FooterTop'>
+                
+                    <div className='FooterLogo'>
+                
+                        <img src={logoFooter} alt="" />
+                
+                        <p>Lorem ipsum dolor sit amet, consectetur adipliscing elit, sed do eiusmod tempor inciddidunt ut labore et dolore</p>
+                
+                        <span>
+                
+                            <img src={facebook} href='' alt="" />
+                            <a href="https://www.instagram.com/digitalcollegebr/" target="_blank" rel="noopener noreferrer">
+                                <img src={instagram} alt="Instagram" />
+                            </a>
+
+                            <img src={twitter}  alt="" />
+                        </span>
                     </div>
-                    <div>
-                    <img src={instagram} alt="" />
+                
+                    <div className='FooterInform'>
+                
+                        <span className='textTitle' >Informação</span>
+                        <div className='textContent'>
+                
+                            <a href="">Sobre DripStore</a>
+                            <a href="">Segurança</a>
+                            <a href="">Wishlist</a>
+                            <a href="">Blog</a>
+                            <a href="">Trabalhe conosco</a>
+                            <a href="">Meus Pedidos</a>
+                
+                        </div>
                     </div>
-                    <div>
-                    <img src={twitter} alt="" />
+                
+                    <div className='FooterCategory' >
+                
+                        <span className='textTitle' >Categorias</span>
+                        <div className='textContent'>
+                
+                            <a href="">Camisestas</a>
+                            <a href="">Calças</a>
+                            <a href="">Bonés</a>
+                            <a href="">Headphones</a>
+                            <a href="">Tênis</a>
+                
+                        </div>
                     </div>
-               
+                
+                    <div className='FooterContact' >
+                        <span className='textTitle' >Contato</span>
+                        <p className='textContent' >
+                            Av. Santos Dumont, 1510 - 1°
+                            andar Aldeota, Fortaleza -
+                            CE, 60150-161
+                            (85) 3051-3411
+                        </p>
+                    </div>
+                
                 </div>
             </div>
 
-            <div className='a'>
-            <p>Informação</p>
-            <h5>Sobre Drip Store</h5>
-            <h5>Segurança</h5>
-            <h5>Wishlist</h5>
-            <h5>Blog</h5>
-            <h5>Trabalhe Conosco</h5>
-            <h5>Meus Pedidos</h5>
-           
-            
-             </div>
-             <div className='a'>
-          
-             <p>Informação</p>
-            <h5>Sobre Drip Store</h5>
-            <h5>Segurança</h5>
-            <h5>Wishlist</h5>
-            <h5>Blog</h5>
-            <h5>Trabalhe Conosco</h5>
-            <h5>Meus Pedidos</h5>
-             </div>
-             <div className='b'>
-          
-             <p>Informação</p>
-             <h5>Av. Santos Dumont, 1510 - 1</h5>
-                            <h5>andar - Aldeota, Fortaleza - </h5>
-                            <h5>CE, 60150-161</h5>
-                            <h5>(85) 3051-3411 </h5>
-            
-            
-             </div>
-            
-        </div>
-        <div className='hrAjuste'>
-        <hr></hr>
-        </div>
-        <div className='FooterBottom'>
+            <hr></hr>
 
-            
-            <h6>@2024 Digita College</h6>
-            
-        </div>  
-    </footer>
+            <div className='FooterBotton' >
+                <h6>@2024 Digital College</h6>
+            </div>
 
+        </footer>
 
 
     )
-}
-    export default Footer;
+
+
+
+} export default Footer;

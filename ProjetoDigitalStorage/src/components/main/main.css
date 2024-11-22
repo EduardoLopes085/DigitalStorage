@@ -1,4 +1,7 @@
-.Container {
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+  .Container {
     width: 100%;
     height: auto;
     display: flex;
@@ -9,13 +12,14 @@
 
 .slider {
     margin: 0 auto;
-    width: 93%;
+    width: 88%;
     height: 400px;
     overflow: hidden;
     position: relative;
 }
 
 .slides {
+   
     width: 400%;
     height: 100%;
     display: flex;
@@ -28,6 +32,9 @@
 }
 
 .slide {
+
+    
+   
     width: 25%;
     height: 100%;
     position: relative;
@@ -46,29 +53,33 @@
 }
 .span_slide{
 
-font-family:Inter;
-font-size: 16px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0.75px;
-text-align: left;
+    
+ 
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
 color: #F6AA1C;
 
 
 }
 .textPrincipal{
-    width: 60%;
+   height: auto; 
+    max-width: 550px; /* Ajuste conforme necessário */
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    color: black;
-    font-size: 50px;
-    font-weight: 800;
-   
+    color:  #1F1F1F;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 66px;
+    letter-spacing: 0.9999998807907104px;
 
 
-    
-    
 }
 
 .radio_btn{
@@ -90,33 +101,15 @@ height: 90%;
 }
 .slide_img img{
     display: flex;
- 
+    transition: transform 0.5s, width 0.5s;
     transform: rotate(-20deg);
 width: 550px;
 height: 300px;
 }
 .slide_img img:hover{
     transition: 0.2s;
-    
- 
     transform: rotate(-25deg);
-
 }
-
-
-#slide2 {
-    background-image: url('../img/home-slide-4.jpeg');
-}
-
-#slide3 {
-    background-image: url('../img/home-slide-4.jpeg');
-}
-
-#slide4 {
-    background-image: url('../img/home-slide-4.jpeg');
-    
-}
-
 .manual_navigation {
     position: absolute;
     bottom: 10px;
@@ -127,11 +120,11 @@ height: 300px;
 }
 
 .manual_btn {
-    height: 14px;
-    width: 14px;
+    height: 3px;
+    width: 3px;
     border: none;
     padding: 5px;
-    border-radius: 40px;
+    border-radius: 50%;
     cursor: pointer;
     background-color: #CCCCCC;
     transition: 0.3s ease;
@@ -157,7 +150,7 @@ height: 300px;
     margin-left: -300%;
 }
 .slide_content{
-   
+    font-family: 'Inter', sans-serif;
     width:50%;
     display: flex;
     flex-direction: column;
@@ -166,44 +159,56 @@ height: 300px;
     gap: 3%;
    
 }
-.slide_content1{
-    height: 100%;
-    width:50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 3%;
-   
-}
-.textPrincipal1{
-    font-family: Inter;
-    font-size: 64px;
-    font-weight: 800;
-    line-height: 66px;
-    letter-spacing: 0.9999998807907104px;
-    text-align: left;
-    
-    
+
  
-}
+
 .label_slide{
-width: 75%;
-color:  #474747;
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-line-height: 34px;
-letter-spacing: 0.75px;
-text-align: left;
+    max-width: 85%;
+    color: hsla(0, 0%, 28%, 1);
+
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
 
 }
 .btn_slide{
-    width: 200px;
-    height: 40px;
+    margin-left: 1%;
+    width: 40%;
+    height: 10%;
     border-radius: 7px;
     border:none;
     background-color: #C92071;
     color: white;
-    font-weight: bold;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    cursor: pointer;
+   
+    
 }
+#radio1:checked ~ .manual_navigation label[for="radio1"],
+#radio2:checked ~ .manual_navigation label[for="radio2"],
+#radio3:checked ~ .manual_navigation label[for="radio3"],
+#radio4:checked ~ .manual_navigation label[for="radio4"] {
+  background-color: #C92071; /* Cor quando o rádio está selecionado */
+}
+.ImgContainerCarrosel {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    align-items: start; /* Move o conteúdo para o topo */
+}
+
+.ImgContainerCarrosel img {
+    margin-top: 25px;
+    height: 23%;
+    width: auto;
+}
+
