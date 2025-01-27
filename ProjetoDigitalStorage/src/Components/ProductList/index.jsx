@@ -5,6 +5,9 @@ import SelectCustom from '../SelectCustom/index'
 import ProductCard from '../ProductCard';
 
 import './productList.css'
+import FilterBrand from '../FilterBrand';
+import FilterCategory from '../FilterCategory';
+import FilterGender from '../FilterGender';
 
 function ProductsList() {
     const sneakers = [
@@ -29,7 +32,7 @@ function ProductsList() {
                     <div className='ProductsResults'>
                         <p>Resultados para "Tênis"  </p>
                         <span> - </span>
-                        <span className='FindItens'> 389 produtos </span>
+                        <span className='FindItens'> {sneakers.length} produtos </span>
                     </div>
 
 
@@ -43,83 +46,15 @@ function ProductsList() {
                             <h1>Filtrar por: </h1>
                         </div>
 
-                        <div className="BrandFilter">
-                            <fieldset>
-                                <legend>Marca</legend>
+                        <FilterBrand/>
 
-                                <div>
-                                    <input type="checkbox" name="brand" id="brand-adidas" value="adidas" />
-                                    <label htmlFor="brand-adidas">Adidas</label>
-                                </div>
+                        <FilterCategory/>
 
-                                <div>
-                                    <input type="checkbox" name="brand" id="brand-balenciaga" value="balenciaga" />
-                                    <label htmlFor="brand-balenciaga">Balenciaga</label>
-                                </div>
+                        <FilterGender/>
 
-                                <div>
-                                    <input type="checkbox" name="brand" id="brand-kswiss" value="kswiss" />
-                                    <label htmlFor="brand-kswiss">K-Swis</label>
-                                </div>
+                        
 
-                                <div>
-                                    <input type="checkbox" name="brand" id="brand-nike" value="nike" />
-                                    <label htmlFor="brand-nike">Nike</label>
-                                </div>
-
-                                <div>
-                                    <input type="checkbox" name="brand" id="brand-puma" value="puma" />
-                                    <label htmlFor="brand-puma">Puma</label>
-                                </div>
-                            </fieldset>
-                        </div>
-
-                        <div className="CategoryFilter">
-                            <fieldset>
-                                <legend>Categoria</legend>
-
-                                <div>
-                                    <input type="checkbox" name="category" id="category-esporte-lazer" value="esporte-lazer" />
-                                    <label htmlFor="category-esporte-lazer">Esporte e Lazer</label>
-                                </div>
-
-                                <div>
-                                    <input type="checkbox" name="category" id="category-casual" value="casual" />
-                                    <label htmlFor="category-casual">Casual</label>
-                                </div>
-
-                                <div>
-                                    <input type="checkbox" name="category" id="category-utilitario" value="utilitario" />
-                                    <label htmlFor="category-utilitario">Utilitário</label>
-                                </div>
-
-                                <div>
-                                    <input type="checkbox" name="category" id="category-corrida" value="corrida" />
-                                    <label htmlFor="category-corrida">Corrida</label>
-                                </div>
-                            </fieldset>
-                        </div>
-
-                        <div className="GenderFilter">
-                            <fieldset>
-                                <legend>Gênero</legend>
-
-                                <div>
-                                    <input type="checkbox" name="gender" id="gender-masculino" value="masculino" />
-                                    <label htmlFor="gender-masculino">Masculino</label>
-                                </div>
-
-                                <div>
-                                    <input type="checkbox" name="gender" id="gender-feminino" value="feminino" />
-                                    <label htmlFor="gender-feminino">Feminino</label>
-                                </div>
-
-                                <div>
-                                    <input type="checkbox" name="gender" id="gender-unisex" value="unisex" />
-                                    <label htmlFor="gender-unisex">Unisex</label>
-                                </div>
-                            </fieldset>
-                        </div>
+                        
 
                     </div>
 
