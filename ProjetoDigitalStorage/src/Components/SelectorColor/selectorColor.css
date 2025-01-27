@@ -1,0 +1,33 @@
+.color-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .productColors {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px; /* Espaçamento entre o título e os círculos de cor */
+  }
+  
+  .color-radio {
+    position: absolute; /* Remove o input radio do fluxo do layout */
+    opacity: 0; /* Torna-o invisível */
+    pointer-events: none; /* Evita interação direta com o input */
+  }
+  
+  .color-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid transparent; /* Borda padrão invisível */
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Estilo para quando o radio button está marcado */
+  .color-radio:checked + .color-circle {
+    border-color: #000; /* Muda a borda quando o radio button está marcado */
+  }

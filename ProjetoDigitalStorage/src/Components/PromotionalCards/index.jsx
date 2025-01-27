@@ -1,4 +1,4 @@
-import '../Main/Main.css'
+import './Main.css'
 
 // import c1 from '../../public/collection-1.png'
 // import c2 from '../../public/collection-2.png'

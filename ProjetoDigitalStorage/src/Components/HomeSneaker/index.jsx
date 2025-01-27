@@ -1,7 +1,7 @@
-import '../main_bottom/index.css'
+import './index.css'
 import img from '../../public/Laye-1.png'
 
-function MainBottom(){
+function HomeSneaker(){
     return(
        <div className='MainBottom'>
             <div className='MainBottomContainer'>
@@ -28,4 +28,4 @@ function MainBottom(){
     )
 }
 
-export default MainBottom;
+export default HomeSneaker;

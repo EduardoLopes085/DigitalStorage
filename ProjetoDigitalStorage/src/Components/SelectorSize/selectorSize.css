@@ -1,0 +1,33 @@
+/* SizeSelector Styles */
+.size-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .productSizes {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px; /* Espaçamento entre o título e os botões de tamanho */
+  }
+  
+  .size-radio {
+    display: none; /* Esconde os radio buttons reais */
+  }
+  
+  .size-button {
+    padding: 10px 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-size: 100%;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .size-radio:checked + .size-button {
+    background-color: #C92071; /* Cor de fundo quando selecionado */
+    color: #FFFFFF; /* Cor do texto quando selecionado */
+  }

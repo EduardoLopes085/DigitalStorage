@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.productCard{
+    width: 100%;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f9f8fea5;
+    
+
+    font-family: 'Inter', sans-serif;
+}
+
+
+.pCardContainer{
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+    background-color: #f9f8fea5;
+}
+
+.productRoute{
+    width: 100%;
+
+    height: 5%;
+
+    background-color: #f9f8fea5;
+
+}
+
+.productRoute > p > a{
+    text-decoration: none;
+
+    font-family: 'Inter', sans-serif;
+    color: rgba(71, 71, 71, 1);
+    font-weight: 700;
+}
+
+
+.productCardBuy{
+    height: 95%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #8180831c;
+}
+
+
+.BuyCarroussel{
+    height: 100%;
+    width: 50%;
+
+    background-color: yellow;
+}
+
+.BuyCarroussel > img{
+    width: 100%;
+    height: 100%;
+}
+
+.productDescription{
+    height: 100%;
+    width: 50%;
+
+
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+
+    gap: 2%;
+
+    /* background-color: yellowgreen; */
+}
+
+.productDescription .productName{
+    text-decoration: none;
+
+
+    font-family: 'Inter', sans-serif;
+    color: rgba(31, 31, 31, 1);
+    font-weight: 700;
+
+    font-size: 240%;
+    text-wrap: wrap;
+    line-height: 36px;
+    letter-spacing: 1px;
+
+    
+
+
+}
+
+.productDescription .productFilter{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+
+    font-size: 90%;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: rgba(102, 102, 102, 1);
+}
+
+.productDescription .productPrice{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3%;
+    
+    font-family: 'Inter', sans-serif;
+    font-size: 130%;
+    font-weight: 700;
+    size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+
+   
+
+}
+
+
+.productDescription .productPrice .priceWithDiscount{
+    font-family: 'Inter', sans-serif;
+    font-size: 130%;
+    font-weight: 700;
+    size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+}
+
+.productDescription .productPrice .price{
+    font-family: 'Inter', sans-serif;
+    font-size: 75%;
+    font-weight: 400;
+    size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: rgba(204, 204, 204, 1);
+    text-decoration: line-through;
+}
+
+
+.productDescription .productDescriptionTitle{
+    font-family: 'Inter', sans-serif;
+    font-size: 75%;
+    font-weight: 700;
+    font-size: 100%;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color:rgba(143, 143, 143, 1);
+   
+}
+
+
+.productDescription .productDescriptionText{
+    width: 75%;
+    font-family: 'Inter', sans-serif;
+    font-size: 75%;
+    font-weight: 500;
+    font-size: 100%;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color:rgba(71, 71, 71, 1);
+}
+
+.productDescription .Size{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 100%;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: rgba(143, 143, 143, 1);
+}
+
+
+.productDescription .productSizes{
+    width: 50%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    
+
+}
+
+.productDescription .productSizes > button {
+    font-family: 'Inter', sans-serif;
+    height: 70%;
+    width: 15%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    color: rgba(71, 71, 71, 1);
+    font-size: 100%;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona a transição suave */
+}
+
+.productDescription .productSizes > button:active {
+    background-color: #C92071; /* Cor de fundo quando pressionado */
+    color: #FFFFFF; /* Cor do texto quando pressionado */
+}
+
+.productDescription .colors{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 100%;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: rgba(143, 143, 143, 1);
+}
+
+.productCard .ProductColors{
+    height: 6%;
+    width: 29%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+    
+    
+}
+
+.productColors .procuctBlue{
+    height: 100%;
+    width: 2%;
+
+
+    background-color: #6FEEFF;
+}
+
+.productButton{
+    background-color: #FFB31F;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+
+    width: 24%;
+    height: 6%;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.productColors {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .color-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+

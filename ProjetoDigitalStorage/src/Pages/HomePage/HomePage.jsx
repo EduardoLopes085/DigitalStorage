@@ -1,20 +1,20 @@
-//../../Pages/HomePage
-import Footer from '../../Components/Footer';
-import Header from '../../Components/Header';
-import MainContent from '../../Components/Main';
-import MainBottom from '../../Components/Main_bottom';
 import MainCards from '../../Components/MainCards';
-import Carrossel from '../../Components/Carrossel';
+import Header from '../../Components/Header/index';
+import Carrossel from '../../Components/Carrossel/index';
+import Promotionalcard from '../../Components/PromotionalCards/index';
+import HomeSneaker from '../../Components/HomeSneaker/index';
+import Footer from '../../Components/Footer/index'
 
 const HomePage = () => {
   return (
     <>
-      <Header />
-      <Carrossel />
-      <MainContent />
+      <Header/>
+      <Carrossel/>
+      <Promotionalcard/>
       <MainCards />
-      <MainBottom />
-      <Footer />
+      <HomeSneaker/>
+      <Footer/>
+
     </>
   );
 };

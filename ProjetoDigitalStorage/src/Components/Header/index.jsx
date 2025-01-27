@@ -11,7 +11,7 @@ function Header(){
             <div className='HeaderContainer'>
                 <div className='HeaderTop'>
                 
-                    <a href=""> <img src={logo} alt="" />  </a>
+                    <a href="/"> <img src={logo} alt="" />  </a>
                     <nav className='NavTop'>
                         <input className='SearchAreaHeader' type="text" placeholder='Pesquisar produto...' />
                         <a className='NavTopCadastrese'  href="">Cadastre-se</a>
@@ -26,8 +26,8 @@ function Header(){
                 
                         <Link to="/">Home</Link>
                         <Link to="/produtos">Produtos</Link>
-                        <Link to="/produtos">Categorias</Link>
-                        <Link to="/produtos">Meus Pedidos</Link>
+                        <Link to="#">Categorias</Link>
+                        <Link to="#">Meus Pedidos</Link>
 
                     </nav>
                 
