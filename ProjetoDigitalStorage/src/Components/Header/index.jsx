@@ -25,7 +25,7 @@ function Header(){
                     <nav className='NavBotton'>
                 
                         <Link to="/">Home</Link>
-                        <Link to="/produtos">Produtos</Link>
+                        <Link to="/products">Produtos</Link>
                         <Link to="#">Categorias</Link>
                         <Link to="#">Meus Pedidos</Link>
 

@@ -1,15 +1,16 @@
 import Footer from '../../Components/Footer';
 import Header from '../../Components/Header';
-import ProductsList from '../../Components/ProductList';
+import ProductOverview from '../../Components/ProductOverview';
 
-const ProductPage = () => {
+
+const ProductBuyPage = () => {
   return (
     <>
       <Header />
-      <ProductsList/>
+      <ProductOverview/>
       <Footer/>
     </>
   );
 };
 
-export default ProductPage;
+export default ProductBuyPage;

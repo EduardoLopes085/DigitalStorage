@@ -23,7 +23,7 @@ function MainCards(){
                 <div className='HeaderCard'>
                     <h1>Produtos em alta</h1>
 
-                    <a href="/produtos"> ver todos <img src={arrow} alt="" /> </a>
+                    <a href="/products"> ver todos <img src={arrow} alt="" /> </a>
                 </div>
        
                 <div className='CardContainer'>

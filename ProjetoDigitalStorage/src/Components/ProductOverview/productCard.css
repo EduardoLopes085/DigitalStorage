@@ -62,13 +62,22 @@
 .BuyCarroussel{
     height: 100%;
     width: 50%;
-
-    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    /* background-color: yellow; */
 }
 
 .BuyCarroussel > img{
-    width: 100%;
-    height: 100%;
+    
+
+    width: 70%;
+    height: 90%;
+    
+    /* background-color: #6FEEFF; */
+
 }
 
 .productDescription{
