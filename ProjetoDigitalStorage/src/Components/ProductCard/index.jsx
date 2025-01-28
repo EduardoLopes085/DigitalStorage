@@ -14,8 +14,8 @@ function ProductCard(props) {
                     <div>
                         <p className='SneakerTitle'>{props.name} - {props.gender}</p>
                     </div>
-                    <div>
-                        <p className='SneakerPrice'>${props.price} - ${props.discount}</p>
+                    <div className='SneakerPrice'>
+                        <p className='SneakerOriginalPrice'> ${props.price}</p>   <p className='SneakerDiscountPrice'>${props.discount}</p> 
                     </div>
                 </div>
 

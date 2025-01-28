@@ -1,0 +1,12 @@
+legend{
+    margin-bottom: 0.5rem;
+}
+
+label{
+    margin-left: 0.3rem;
+}
+
+
+input[type="checkbox"]:checked {
+    accent-color: #C92071; /* Altere para a cor desejada */
+}

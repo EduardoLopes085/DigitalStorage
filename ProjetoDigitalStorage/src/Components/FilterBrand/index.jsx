@@ -1,3 +1,5 @@
+import './FilterBrand.css'
+
 import React from 'react'
 
 function FilterBrand() {

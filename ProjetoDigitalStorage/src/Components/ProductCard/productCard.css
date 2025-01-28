@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 .CardText{
     font-family: 'Inter', sans-serif;
 }
+
+.SneakerPrice{
+    width: 70%;
+    height: 3rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+
+.SneakerOriginalPrice{
+    font-family: 'Inter', sans-serif;
+    color: #8F8F8F;
+    text-decoration: line-through;
+    font-size: 1em;
+}
+
+.SneakerDiscountPrice{
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 1.4rem;
+}
+
+
+
+
+
+
+
